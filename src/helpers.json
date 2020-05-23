@@ -1,0 +1,198 @@
+{
+    "Arr::accessible": {
+        "prefix": "Arr::accessible",
+        "body": [
+            "Arr::accessible"
+        ],
+        "description": "The Arr::accessible method checks that the given value is array accessible."
+    },
+    "Arr::add": {
+        "prefix": "Arr::add",
+        "body": [
+            "Arr::add"
+        ],
+        "description": "The Arr::add method adds a given key / value pair to an array if the given key doesn't already exist in the array or is set to null."
+    },
+    "Arr::collapse": {
+        "prefix": "Arr::collapse",
+        "body": [
+            "Arr::collapse"
+        ],
+        "description": "The Arr::collapse method collapses an array of arrays into a single array."
+    },
+    "Arr::crossJoin": {
+        "prefix": "Arr::crossJoin",
+        "body": [
+            "Arr::crossJoin"
+        ],
+        "description": "The Arr::crossJoin method cross joins the given arrays, returning a Cartesian product with all possible permutations."
+    },
+    "Arr::divide": {
+        "prefix": "Arr::divide",
+        "body": [
+            "Arr::divide"
+        ],
+        "description": "The Arr::divide method returns two arrays, one containing the keys, and the other containing the values of the given array."
+    },
+    "Arr::dot": {
+        "prefix": "Arr::dot",
+        "body": [
+            "Arr::dot"
+        ],
+        "description": "The Arr::dot method flattens a multi-dimensional array into a single level array that uses \"dot\" notation to indicate depth."
+    },
+    "Arr::except": {
+        "prefix": "Arr::except",
+        "body": [
+            "Arr::except"
+        ],
+        "description": "The Arr::except method removes the given key / value pairs from an array."
+    },
+    "Arr::exists": {
+        "prefix": "Arr::exists",
+        "body": [
+            "Arr::exists"
+        ],
+        "description": "The Arr::exists method checks that the given key exists in the provided array."
+    },
+    "Arr::first": {
+        "prefix": "Arr::first",
+        "body": [
+            "Arr::first"
+        ],
+        "description": "The Arr::first method returns the first element of an array passing a given truth test."
+    },
+    "Arr::flatten": {
+        "prefix": "Arr::flatten",
+        "body": [
+            "Arr::flatten"
+        ],
+        "description": "The Arr::flatten method flattens a multi-dimensional array into a single level array."
+    },
+    "Arr::forget": {
+        "prefix": "Arr::forget",
+        "body": [
+            "Arr::forget"
+        ],
+        "description": "The Arr::forget method removes a given key / value pair from a deeply nested array using \"dot\" notation."
+    },
+    "Arr::get": {
+        "prefix": "Arr::get",
+        "body": [
+            "Arr::get"
+        ],
+        "description": "The Arr::get method retrieves a value from a deeply nested array using \"dot\" notation."
+    },
+    "Arr::has": {
+        "prefix": "Arr::has",
+        "body": [
+            "Arr::has"
+        ],
+        "description": "The Arr::has method checks whether a given item or items exists in an array using \"dot\" notation."
+    },
+    "Arr::hasAny": {
+        "prefix": "Arr::hasAny",
+        "body": [
+            "Arr::hasAny"
+        ],
+        "description": "The Arr::hasAny method checks whether any item in a given set exists in an array using \"dot\" notation."
+    },
+    "Arr::isAssoc returns true": {
+        "prefix": "Arr::isAssoc",
+        "body": [
+            "Arr::isAssoc"
+        ],
+        "description": "The Arr::isAssoc returns true if the given array is an associative array. An array is considered \"associative\" if it doesn't have sequential numerical keys beginning with zero."
+    },
+    "Arr::last": {
+        "prefix": "Arr::last",
+        "body": [
+            "Arr::last"
+        ],
+        "description": "The Arr::last method returns the last element of an array passing a given truth test."
+    },
+    "Arr::only": {
+        "prefix": "Arr::only",
+        "body": [
+            "Arr::only"
+        ],
+        "description": "The Arr::only method returns only the specified key / value pairs from the given array."
+    },
+    "Arr::pluck": {
+        "prefix": "Arr::pluck",
+        "body": [
+            "Arr::pluck"
+        ],
+        "description": "The Arr::pluck method retrieves all of the values for a given key from an array."
+    },
+    "Arr::prepend": {
+        "prefix": "Arr::prepend",
+        "body": [
+            "Arr::prepend"
+        ],
+        "description": "The Arr::prepend method will push an item onto the beginning of an array."
+    },
+    "Arr::pull": {
+        "prefix": "Arr::pull",
+        "body": [
+            "Arr::pull"
+        ],
+        "description": "The Arr::pull method returns and removes a key / value pair from an array."
+    },
+    "Arr::query": {
+        "prefix": "Arr::query",
+        "body": [
+            "Arr::query"
+        ],
+        "description": "The Arr::query method converts the array into a query string."
+    },
+    "Arr::random": {
+        "prefix": "Arr::random",
+        "body": [
+            "Arr::random"
+        ],
+        "description": "The Arr::random method returns a random value from an array."
+    },
+    "Arr::set": {
+        "prefix": "Arr::set",
+        "body": [
+            "Arr::set"
+        ],
+        "description": "The Arr::set method sets a value within a deeply nested array using \"dot\" notation."
+    },
+    "Arr::shuffle": {
+        "prefix": "Arr::shuffle",
+        "body": [
+            "Arr::shuffle"
+        ],
+        "description": "The Arr::shuffle method randomly shuffles the items in the array."
+    },
+    "Arr::sort": {
+        "prefix": "Arr::sort",
+        "body": [
+            "Arr::sort"
+        ],
+        "description": "The Arr::sort method sorts an array by its values."
+    },
+    "Arr::sortRecursive": {
+        "prefix": "Arr::sortRecursive",
+        "body": [
+            "Arr::sortRecursive"
+        ],
+        "description": "The Arr::sortRecursive method recursively sorts an array using the sort function for numeric sub=arrays and ksort for associative subarrays."
+    },
+    "Arr::where": {
+        "prefix": "Arr::where",
+        "body": [
+            "Arr::where"
+        ],
+        "description": "The Arr::where method filters an array using the given Closure."
+    },
+    "Arr::wrap": {
+        "prefix": "Arr::wrap",
+        "body": [
+            "Arr::wrap"
+        ],
+        "description": "The Arr::wrap method wraps the given value in an array. If the given value is already an array it will not be changed."
+    }
+}
