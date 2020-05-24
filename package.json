@@ -10,14 +10,13 @@
 		"Snippets"
 	],
 	"activationEvents": [
-		"onCommand:laravel-snippets.helloWorld"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"snippets": [
 			{
 				"language": "php",
-				"path": "./src/helpers.json"
+				"path": "./src/helpers/array.json"
 			}
 		]
 	},
