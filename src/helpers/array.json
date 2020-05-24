@@ -4,195 +4,195 @@
         "body": [
             "Arr::accessible(${1:\\$value})"
         ],
-        "description": "The Arr::accessible method checks that the given value is array accessible."
+        "description": "Checks that the given value is array accessible."
     },
     "Arr::add": {
         "prefix": "Arr::add",
         "body": [
             "Arr::add(${1:\\$array}, ${2:\\$key}, ${3:\\$value})"
         ],
-        "description": "The Arr::add method adds a given key / value pair to an array if the given key doesn't already exist in the array or is set to null."
+        "description": "Adds a given key / value pair to an array if the given key doesn't already exist in the array or is set to null."
     },
     "Arr::collapse": {
         "prefix": "Arr::collapse",
         "body": [
             "Arr::collapse(${1:\\$array})"
         ],
-        "description": "The Arr::collapse method collapses an array of arrays into a single array."
+        "description": "Collapses an array of arrays into a single array."
     },
     "Arr::crossJoin": {
         "prefix": "Arr::crossJoin",
         "body": [
             "Arr::crossJoin(${1:...\\$arrays})"
         ],
-        "description": "The Arr::crossJoin method cross joins the given arrays, returning a Cartesian product with all possible permutations."
+        "description": "Cross joins the given arrays, returning a Cartesian product with all possible permutations."
     },
     "Arr::divide": {
         "prefix": "Arr::divide",
         "body": [
             "Arr::divide(${1:\\$array})"
         ],
-        "description": "The Arr::divide method returns two arrays, one containing the keys, and the other containing the values of the given array."
+        "description": "Returns two arrays, one containing the keys, and the other containing the values of the given array."
     },
     "Arr::dot": {
         "prefix": "Arr::dot",
         "body": [
             "Arr::dot(${1:\\$array})"
         ],
-        "description": "The Arr::dot method flattens a multi-dimensional array into a single level array that uses \"dot\" notation to indicate depth."
+        "description": "Flattens a multi-dimensional array into a single level array that uses \"dot\" notation to indicate depth."
     },
     "Arr::except": {
         "prefix": "Arr::except",
         "body": [
             "Arr::except(${1:\\$array, ${2:\\$keys})"
         ],
-        "description": "The Arr::except method removes the given key / value pairs from an array."
+        "description": "Removes the given key / value pairs from an array."
     },
     "Arr::exists": {
         "prefix": "Arr::exists",
         "body": [
             "Arr::exists(${1:\\$array}, ${2:\\$key})"
         ],
-        "description": "The Arr::exists method checks that the given key exists in the provided array."
+        "description": "Checks that the given key exists in the provided array."
     },
     "Arr::first": {
         "prefix": "Arr::first",
         "body": [
             "Arr::first(${1:\\$array})"
         ],
-        "description": "The Arr::first method returns the first element of an array passing a given truth test."
+        "description": "Returns the first element of an array passing a given truth test."
     },
     "Arr::flatten": {
         "prefix": "Arr::flatten",
         "body": [
             "Arr::flatten(${1:\\$array})"
         ],
-        "description": "The Arr::flatten method flattens a multi-dimensional array into a single level array."
+        "description": "Flattens a multi-dimensional array into a single level array."
     },
     "Arr::forget": {
         "prefix": "Arr::forget",
         "body": [
             "Arr::forget(${1:\\$array}, ${2:\\$keys})"
         ],
-        "description": "The Arr::forget method removes a given key / value pair from a deeply nested array using \"dot\" notation."
+        "description": "Removes a given key / value pair from a deeply nested array using \"dot\" notation."
     },
     "Arr::get": {
         "prefix": "Arr::get",
         "body": [
             "Arr::get(${1:\\$array}, ${2:\\$key})"
         ],
-        "description": "The Arr::get method retrieves a value from a deeply nested array using \"dot\" notation."
+        "description": "Retrieves a value from a deeply nested array using \"dot\" notation."
     },
     "Arr::has": {
         "prefix": "Arr::has",
         "body": [
             "Arr::has(${1:\\$array}, ${2:\\$keys})"
         ],
-        "description": "The Arr::has method checks whether a given item or items exists in an array using \"dot\" notation."
+        "description": "Checks whether a given item or items exists in an array using \"dot\" notation."
     },
     "Arr::hasAny": {
         "prefix": "Arr::hasAny",
         "body": [
             "Arr::hasAny(${1:\\$array}, ${2:\\$keys})"
         ],
-        "description": "The Arr::hasAny method checks whether any item in a given set exists in an array using \"dot\" notation."
+        "description": "Checks whether any item in a given set exists in an array using \"dot\" notation."
     },
     "Arr::isAssoc returns true": {
         "prefix": "Arr::isAssoc",
         "body": [
             "Arr::isAssoc(${1:\\$array})"
         ],
-        "description": "The Arr::isAssoc returns true if the given array is an associative array. An array is considered \"associative\" if it doesn't have sequential numerical keys beginning with zero."
+        "description": "Returns true if the given array is an associative array. An array is considered \"associative\" if it doesn't have sequential numerical keys beginning with zero."
     },
     "Arr::last": {
         "prefix": "Arr::last",
         "body": [
             "Arr::last(${1:\\$array})"
         ],
-        "description": "The Arr::last method returns the last element of an array passing a given truth test."
+        "description": "Returns the last element of an array passing a given truth test."
     },
     "Arr::only": {
         "prefix": "Arr::only",
         "body": [
             "Arr::only(${1:\\$array}, ${2:\\$keys})"
         ],
-        "description": "The Arr::only method returns only the specified key / value pairs from the given array."
+        "description": "Returns only the specified key / value pairs from the given array."
     },
     "Arr::pluck": {
         "prefix": "Arr::pluck",
         "body": [
             "Arr::pluck(${1:\\$array}, ${2:\\$value})"
         ],
-        "description": "The Arr::pluck method retrieves all of the values for a given key from an array."
+        "description": "Retrieves all of the values for a given key from an array."
     },
     "Arr::prepend": {
         "prefix": "Arr::prepend",
         "body": [
             "Arr::prepend(${1:\\$array}, ${2:\\$value})"
         ],
-        "description": "The Arr::prepend method will push an item onto the beginning of an array."
+        "description": "Push an item onto the beginning of an array."
     },
     "Arr::pull": {
         "prefix": "Arr::pull",
         "body": [
             "Arr::pull(${1:\\$array}, ${1:\\$key})"
         ],
-        "description": "The Arr::pull method returns and removes a key / value pair from an array."
+        "description": "Returns and removes a key / value pair from an array."
     },
     "Arr::query": {
         "prefix": "Arr::query",
         "body": [
             "Arr::query(${1:\\$array})"
         ],
-        "description": "The Arr::query method converts the array into a query string."
+        "description": "Converts the array into a query string."
     },
     "Arr::random": {
         "prefix": "Arr::random",
         "body": [
             "Arr::random(${1:\\$array})"
         ],
-        "description": "The Arr::random method returns a random value from an array."
+        "description": "Returns a random value from an array."
     },
     "Arr::set": {
         "prefix": "Arr::set",
         "body": [
             "Arr::set(${1:\\$array}, ${2:\\$key}, ${3:\\$value})"
         ],
-        "description": "The Arr::set method sets a value within a deeply nested array using \"dot\" notation."
+        "description": "Sets a value within a deeply nested array using \"dot\" notation."
     },
     "Arr::shuffle": {
         "prefix": "Arr::shuffle",
         "body": [
             "Arr::shuffle(${1:\\$array})"
         ],
-        "description": "The Arr::shuffle method randomly shuffles the items in the array."
+        "description": "Randomly shuffles the items in the array."
     },
     "Arr::sort": {
         "prefix": "Arr::sort",
         "body": [
             "Arr::sort(${1:\\$array})"
         ],
-        "description": "The Arr::sort method sorts an array by its values."
+        "description": "Sorts an array by its values."
     },
     "Arr::sortRecursive": {
         "prefix": "Arr::sortRecursive",
         "body": [
             "Arr::sortRecursive(${1:\\$array})"
         ],
-        "description": "The Arr::sortRecursive method recursively sorts an array using the sort function for numeric sub=arrays and ksort for associative subarrays."
+        "description": "Recursively sorts an array using the sort function for numeric sub=arrays and ksort for associative subarrays."
     },
     "Arr::where": {
         "prefix": "Arr::where",
         "body": [
             "Arr::where(${1:\\$array}, ${2:\\$callback})"
         ],
-        "description": "The Arr::where method filters an array using the given Closure."
+        "description": "Filters an array using the given Closure."
     },
     "Arr::wrap": {
         "prefix": "Arr::wrap",
         "body": [
             "Arr::wrap(${1:\\$value})"
         ],
-        "description": "The Arr::wrap method wraps the given value in an array. If the given value is already an array it will not be changed."
+        "description": "Wraps the given value in an array. If the given value is already an array it will not be changed."
     }
 }
