@@ -1,8 +1,13 @@
 {
 	"name": "laravel-snippets",
 	"displayName": "Laravel Snippets",
-	"description": "",
-	"version": "0.0.1",
+	"description": "A Laravel snippets for Visual Studio Code.",
+	"version": "0.1.0",
+	"publisher": "kennith",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kennith/laravel-snippets.git"
+	  },
 	"engines": {
 		"vscode": "^1.45.0"
 	},
