@@ -30,6 +30,10 @@
 			{
 				"language": "php",
 				"path": "./src/helpers/path.json"
+			},
+			{
+				"language": "php",
+				"path": "./src/helpers/url.json"
 			}
 		]
 	},
