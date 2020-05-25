@@ -194,5 +194,40 @@
             "Arr::wrap(${1:\\$value})"
         ],
         "description": "Wraps the given value in an array. If the given value is already an array it will not be changed."
+    },
+    "data_fill()": {
+        "prefix": "data_fill()",
+        "body": [
+            "data_fill(${1:\\$target}, ${2:\\$key}, ${3:\\$value})"
+        ],
+        "description": "The `data_fill` function sets a missing value within a nested array or object using \"dot\" notation."
+    },
+    "data_get()": {
+        "prefix": "data_get()",
+        "body": [
+            "data_get(${1:\\$target}, ${2:\\$key})"
+        ],
+        "description": "The `data_get` function retrieves a value from a nested array or object using \"dot\" notation."
+    },
+    "data_set()": {
+        "prefix": "data_set()",
+        "body": [
+            "data_set(${1:\\$target}, ${2:\\$key}, ${3:\\$value})"
+        ],
+        "description": "The `data_set` function sets a value within a nested array or object using \"dot\" notation."
+    },
+    "head()": {
+        "prefix": "head()",
+        "body": [
+            "head(${1:\\$array})"
+        ],
+        "description": "The `head` function returns the first element in the given array."
+    },
+    "last()": {
+        "prefix": "last()",
+        "body": [
+            "last(${1:\\$array})"
+        ],
+        "description": "The `last` function returns the last element in the given array."
     }
 }
