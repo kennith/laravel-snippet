@@ -1,10 +1,31 @@
 {
     "__": {
         "prefix": "__",
-        "body":[
+        "body": [
             "__(${1:\\$value})"
         ],
         "description": "Translates the given translation string or translation key using your localization files."
+    },
+    "class_basename()": {
+        "prefix": "class_basename()",
+        "body": [
+            "class_basename(${1:\\$class})"
+        ],
+        "description": "The `class_basename` function returns the class name of the given class with the class's namespace removed."
+    },
+    "e()": {
+        "prefix": "e()",
+        "body": [
+            "e(${1:\\$value})"
+        ],
+        "description": "The `e` function runs PHP's `htmlspecialchars` function with the `double_encode` option set to `true` by default."
+    },
+    "preg_replace_array()": {
+        "prefix": "preg_replace_array()",
+        "body": [
+            "preg_replace_array(${1:\\$pattern}, ${2:\\$replacements}, ${3:\\subject})"
+        ],
+        "description": "The `preg_replace_array` function replaces a given pattern in the string sequentially using an array."
     },
     "Str::after": {
         "prefix": "Str::after",
