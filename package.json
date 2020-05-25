@@ -26,6 +26,10 @@
 			{
 				"language": "php",
 				"path": "./src/helpers/str.json"
+			},
+			{
+				"language": "php",
+				"path": "./src/helpers/path.json"
 			}
 		]
 	},
