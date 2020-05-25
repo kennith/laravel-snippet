@@ -1,4 +1,11 @@
 {
+    "__": {
+        "prefix": "__",
+        "body":[
+            "__(${1:\\$value})"
+        ],
+        "description": "Translates the given translation string or translation key using your localization files."
+    },
     "Str::after": {
         "prefix": "Str::after",
         "body": [
