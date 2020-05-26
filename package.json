@@ -25,27 +25,27 @@
 		"snippets": [
 			{
 				"language": "php",
-				"path": "./src/helpers/array.json"
+				"path": "./snippets/helpers/array.json"
 			},
 			{
 				"language": "php",
-				"path": "./src/helpers/str.json"
+				"path": "./snippets/helpers/str.json"
 			},
 			{
 				"language": "php",
-				"path": "./src/helpers/path.json"
+				"path": "./snippets/helpers/path.json"
 			},
 			{
 				"language": "php",
-				"path": "./src/helpers/url.json"
+				"path": "./snippets/helpers/url.json"
 			},
 			{
 				"language": "php",
-				"path": "./src/helpers/misc.json"
+				"path": "./snippets/helpers/misc.json"
 			},
 			{
 				"language": "php",
-				"path": "./src/helpers/fluent-string.json"
+				"path": "./snippets/helpers/fluent-string.json"
 			}
 		]
 	},
