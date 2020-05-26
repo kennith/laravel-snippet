@@ -1,0 +1,254 @@
+{
+    "after": {
+        "prefix": "after",
+        "body": [
+            "after(${1:\\$subject}, ${2:\\$search})"
+        ],
+        "description": "Returns everything after the given value in a string. The entire string will be returned if the value does not exist within the string."
+    },
+    "afterLast": {
+        "prefix": "afterLast",
+        "body": [
+            "afterLast(${1:\\$subject}, ${2:\\$search})"
+        ],
+        "description": "Returns everything after the last occurrence of the given value in a string. The entire string will be returned if the value does not exist within the string."
+    },
+    "ascii": {
+        "prefix": "ascii",
+        "body": [
+            "ascii(${1:\\$value})"
+        ],
+        "description": "Attempts to transliterate the string into an ASCII value."
+    },
+    "before": {
+        "prefix": "before",
+        "body": [
+            "before(${1:\\$subject}, ${2:\\search})"
+        ],
+        "description": "Returns everything before the given value in a string."
+    },
+    "beforeLast": {
+        "prefix": "beforeLast",
+        "body": [
+            "beforeLast(${1:\\$subject}, ${2:\\$search})"
+        ],
+        "description": "Returns everything before the last occurrence of the given value in a string."
+    },
+    "between": {
+        "prefix": "between",
+        "body": [
+            "between(${1:\\$subject}, ${2:\\$from}, ${3:\\$to})"
+        ],
+        "description": "Returns the portion of a string between two values."
+    },
+    "camel": {
+        "prefix": "camel",
+        "body": [
+            "camel(${1:\\$value})"
+        ],
+        "description": "Converts the given string to `camelCase`."
+    },
+    "contains": {
+        "prefix": "contains",
+        "body": [
+            "contains(${1:\\$haystack}, ${2:\\$needles})"
+        ],
+        "description": "Determines if the given string contains the given value (case sensitive)."
+    },
+    "containsAll": {
+        "prefix": "containsAll",
+        "body": [
+            "containsAll(${1:\\$haystack}, ${2:\\$needles})"
+        ],
+        "description": "Determines if the given string contains all array values."
+    },
+    "endsWith": {
+        "prefix": "endsWith",
+        "body": [
+            "endsWith(${1:\\$haystack}, ${2:\\$needles})"
+        ],
+        "description": "Determines if the given string ends with the given value."
+    },
+    "finish": {
+        "prefix": "finish",
+        "body": [
+            "finish(${1:\\$value}, ${2:\\$cap})"
+        ],
+        "description": "Adds a single instance of the given value to a string if it does not already end with the value."
+    },
+    "is": {
+        "prefix": "is",
+        "body": [
+            "is(${1:\\$pattern}, ${2:\\$value})"
+        ],
+        "description": "Determines if a given string matches a given pattern. Asterisks may be used to indicate wildcards."
+    },
+    "isAscii": {
+        "prefix": "isAscii",
+        "body": [
+            "isAscii(${1:\\$value})"
+        ],
+        "description": "Determines if a given string is 7 bit ASCII."
+    },
+    "isUuid": {
+        "prefix": "isUuid",
+        "body": [
+            "isUuid(${1:\\$value})"
+        ],
+        "description": "Determines if the given string is a valid UUID."
+    },
+    "kebab": {
+        "prefix": "kebab",
+        "body": [
+            "kebab(${1:\\$value})"
+        ],
+        "description": "Converts the given string to `kebab-case`."
+    },
+    "length": {
+        "prefix": "length",
+        "body": [
+            "length(${1:\\$value})"
+        ],
+        "description": "Returns the length of the given string."
+    },
+    "limit": {
+        "prefix": "limit",
+        "body": [
+            "limit(${1:\\$value})"
+        ],
+        "description": "Truncates the given string at the specified length."
+    },
+    "lower": {
+        "prefix": "lower",
+        "body": [
+            "lower(${1:\\$value})"
+        ],
+        "description": "Converts the given string to lowercase."
+    },
+    "orderedUuid": {
+        "prefix": "orderedUuid",
+        "body": [
+            "orderedUuid()"
+        ],
+        "description": "Generates a \"timestamp first\" UUID that may be efficiently stored in an indexed database column."
+    },
+    "plural": {
+        "prefix": "plural",
+        "body": [
+            "plural(${1:\\$value})"
+        ],
+        "description": "Converts a single word string to its plural form. This function currently only supports the English language."
+    },
+    "random": {
+        "prefix": "random",
+        "body": [
+            "random(${1:\\$value})"
+        ],
+        "description": "Generates a random string of the specified length. This function uses PHP's `random_bytes` function."
+    },
+    "replaceArray": {
+        "prefix": "replaceArray",
+        "body": [
+            "replaceArray(${1:\\$search}, ${2:\\$replace}, ${3:\\$subject})"
+        ],
+        "description": "Replaces a given value in the string sequentially using an array."
+    },
+    "replaceFirst": {
+        "prefix": "replaceFirst",
+        "body": [
+            "replaceFirst(${1:\\$search}, ${2:\\$replace}, ${3:\\$subject})"
+        ],
+        "description": "Replaces the first occurrence of a given value in a string."
+    },
+    "replaceLast": {
+        "prefix": "replaceLast",
+        "body": [
+            "replaceLast(${1:\\$search}, ${2:\\$replace}, ${3:\\$subject})"
+        ],
+        "description": "Replaces the last occurrence of a given value in a string."
+    },
+    "singular": {
+        "prefix": "singular",
+        "body": [
+            "singular(${1:\\$value})"
+        ],
+        "description": "Converts a string to its singular form. This function currently only supports the English language."
+    },
+    "slug": {
+        "prefix": "slug",
+        "body": [
+            "slug(${1:\\$title})"
+        ],
+        "description": "Generates a URL friendly \"slug\" from the given string."
+    },
+    "snake": {
+        "prefix": "snake",
+        "body": [
+            "snake(${1:\\$value})"
+        ],
+        "description": "Converts the given string to `snake_case`."
+    },
+    "start": {
+        "prefix": "start",
+        "body": [
+            "start(${1:\\$value}, ${2:\\$prefix})"
+        ],
+        "description": "Adds a single instance of the given value to a string if it does not already start with the value."
+    },
+    "startsWith": {
+        "prefix": "startsWith",
+        "body": [
+            "startsWith(${1:\\$haystack}, ${2:\\$needles})"
+        ],
+        "description": "Determines if the given string begins with the given value."
+    },
+    "studly": {
+        "prefix": "studly",
+        "body": [
+            "studly(${1:\\$value})"
+        ],
+        "description": "Converts the given string to `StudlyCase`."
+    },
+    "substr": {
+        "prefix": "substr",
+        "body": [
+            "substr(${1:\\$string}, ${2:\\$start})"
+        ],
+        "description": "Returns the portion of string specified by the start and length parameters."
+    },
+    "title": {
+        "prefix": "title",
+        "body": [
+            "title(${1:\\$value})"
+        ],
+        "description": "Converts the given string to `Title Case`."
+    },
+    "ucfirst": {
+        "prefix": "ucfirst",
+        "body": [
+            "ucfirst(${1:\\$string})"
+        ],
+        "description": "Returns the given string with the first character capitalized."
+    },
+    "upper": {
+        "prefix": "upper",
+        "body": [
+            "upper(${1:\\$value})"
+        ],
+        "description": "Converts the given string to uppercase."
+    },
+    "uuid": {
+        "prefix": "uuid",
+        "body": [
+            "uuid()"
+        ],
+        "description": "Generates a UUID (version 4)."
+    },
+    "words": {
+        "prefix": "words",
+        "body": [
+            "words(${1:\\$value})"
+        ],
+        "description": "Limits the number of words in a string."
+    }
+}

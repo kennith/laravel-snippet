@@ -2,7 +2,11 @@
 	"name": "laravel-snippets",
 	"displayName": "Laravel Snippets",
 	"description": "A Laravel snippets for Visual Studio Code.",
-	"version": "0.1.2",
+	"homepage": "https://github.com/kennith/laravel-snippets",
+	"bugs": {"url": "https://github.com/kennith/laravel-snippets/issues"},
+	"keywords" :["laravel snippets", "laravel", "snippets"],
+	"version": "1.0.0",
+	"license": "LICENSE.md",
 	"publisher": "kennith",
 	"repository": {
 		"type": "git",
@@ -22,6 +26,26 @@
 			{
 				"language": "php",
 				"path": "./src/helpers/array.json"
+			},
+			{
+				"language": "php",
+				"path": "./src/helpers/str.json"
+			},
+			{
+				"language": "php",
+				"path": "./src/helpers/path.json"
+			},
+			{
+				"language": "php",
+				"path": "./src/helpers/url.json"
+			},
+			{
+				"language": "php",
+				"path": "./src/helpers/misc.json"
+			},
+			{
+				"language": "php",
+				"path": "./src/helpers/fluent-string.json"
 			}
 		]
 	},

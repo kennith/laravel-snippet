@@ -1,0 +1,282 @@
+{
+    "__": {
+        "prefix": "__",
+        "body": [
+            "__(${1:\\$value})"
+        ],
+        "description": "Translates the given translation string or translation key using your localization files."
+    },
+    "class_basename()": {
+        "prefix": "class_basename()",
+        "body": [
+            "class_basename(${1:\\$class})"
+        ],
+        "description": "The `class_basename` function returns the class name of the given class with the class's namespace removed."
+    },
+    "e()": {
+        "prefix": "e()",
+        "body": [
+            "e(${1:\\$value})"
+        ],
+        "description": "The `e` function runs PHP's `htmlspecialchars` function with the `double_encode` option set to `true` by default."
+    },
+    "preg_replace_array()": {
+        "prefix": "preg_replace_array()",
+        "body": [
+            "preg_replace_array(${1:\\$pattern}, ${2:\\$replacements}, ${3:\\subject})"
+        ],
+        "description": "The `preg_replace_array` function replaces a given pattern in the string sequentially using an array."
+    },
+    "Str::after": {
+        "prefix": "Str::after",
+        "body": [
+            "Str::after(${1:\\$subject}, ${2:\\$search})"
+        ],
+        "description": "Returns everything after the given value in a string. The entire string will be returned if the value does not exist within the string."
+    },
+    "Str::afterLast": {
+        "prefix": "Str::afterLast",
+        "body": [
+            "Str::afterLast(${1:\\$subject}, ${2:\\$search})"
+        ],
+        "description": "Returns everything after the last occurrence of the given value in a string. The entire string will be returned if the value does not exist within the string."
+    },
+    "Str::ascii": {
+        "prefix": "Str::ascii",
+        "body": [
+            "Str::ascii(${1:\\$value})"
+        ],
+        "description": "Attempts to transliterate the string into an ASCII value."
+    },
+    "Str::before": {
+        "prefix": "Str::before",
+        "body": [
+            "Str::before(${1:\\$subject}, ${2:\\search})"
+        ],
+        "description": "Returns everything before the given value in a string."
+    },
+    "Str::beforeLast": {
+        "prefix": "Str::beforeLast",
+        "body": [
+            "Str::beforeLast(${1:\\$subject}, ${2:\\$search})"
+        ],
+        "description": "Returns everything before the last occurrence of the given value in a string."
+    },
+    "Str::between": {
+        "prefix": "Str::between",
+        "body": [
+            "Str::between(${1:\\$subject}, ${2:\\$from}, ${3:\\$to})"
+        ],
+        "description": "Returns the portion of a string between two values."
+    },
+    "Str::camel": {
+        "prefix": "Str::camel",
+        "body": [
+            "Str::camel(${1:\\$value})"
+        ],
+        "description": "Converts the given string to `camelCase`."
+    },
+    "Str::contains": {
+        "prefix": "Str::contains",
+        "body": [
+            "Str::contains(${1:\\$haystack}, ${2:\\$needles})"
+        ],
+        "description": "Determines if the given string contains the given value (case sensitive)."
+    },
+    "Str::containsAll": {
+        "prefix": "Str::containsAll",
+        "body": [
+            "Str::containsAll(${1:\\$haystack}, ${2:\\$needles})"
+        ],
+        "description": "Determines if the given string contains all array values."
+    },
+    "Str::endsWith": {
+        "prefix": "Str::endsWith",
+        "body": [
+            "Str::endsWith(${1:\\$haystack}, ${2:\\$needles})"
+        ],
+        "description": "Determines if the given string ends with the given value."
+    },
+    "Str::finish": {
+        "prefix": "Str::finish",
+        "body": [
+            "Str::finish(${1:\\$value}, ${2:\\$cap})"
+        ],
+        "description": "Adds a single instance of the given value to a string if it does not already end with the value."
+    },
+    "Str::is": {
+        "prefix": "Str::is",
+        "body": [
+            "Str::is(${1:\\$pattern}, ${2:\\$value})"
+        ],
+        "description": "Determines if a given string matches a given pattern. Asterisks may be used to indicate wildcards."
+    },
+    "Str::isAscii": {
+        "prefix": "Str::isAscii",
+        "body": [
+            "Str::isAscii(${1:\\$value})"
+        ],
+        "description": "Determines if a given string is 7 bit ASCII."
+    },
+    "Str::isUuid": {
+        "prefix": "Str::isUuid",
+        "body": [
+            "Str::isUuid(${1:\\$value})"
+        ],
+        "description": "Determines if the given string is a valid UUID."
+    },
+    "Str::kebab": {
+        "prefix": "Str::kebab",
+        "body": [
+            "Str::kebab(${1:\\$value})"
+        ],
+        "description": "Converts the given string to `kebab-case`."
+    },
+    "Str::length": {
+        "prefix": "Str::length",
+        "body": [
+            "Str::length(${1:\\$value})"
+        ],
+        "description": "Returns the length of the given string."
+    },
+    "Str::limit": {
+        "prefix": "Str::limit",
+        "body": [
+            "Str::limit(${1:\\$value})"
+        ],
+        "description": "Truncates the given string at the specified length."
+    },
+    "Str::lower": {
+        "prefix": "Str::lower",
+        "body": [
+            "Str::lower(${1:\\$value})"
+        ],
+        "description": "Converts the given string to lowercase."
+    },
+    "Str::orderedUuid": {
+        "prefix": "Str::orderedUuid",
+        "body": [
+            "Str::orderedUuid()"
+        ],
+        "description": "Generates a \"timestamp first\" UUID that may be efficiently stored in an indexed database column."
+    },
+    "Str::plural": {
+        "prefix": "Str::plural",
+        "body": [
+            "Str::plural(${1:\\$value})"
+        ],
+        "description": "Converts a single word string to its plural form. This function currently only supports the English language."
+    },
+    "Str::random": {
+        "prefix": "Str::random",
+        "body": [
+            "Str::random(${1:\\$value})"
+        ],
+        "description": "Generates a random string of the specified length. This function uses PHP's `random_bytes` function."
+    },
+    "Str::replaceArray": {
+        "prefix": "Str::replaceArray",
+        "body": [
+            "Str::replaceArray(${1:\\$search}, ${2:\\$replace}, ${3:\\$subject})"
+        ],
+        "description": "Replaces a given value in the string sequentially using an array."
+    },
+    "Str::replaceFirst": {
+        "prefix": "Str::replaceFirst",
+        "body": [
+            "Str::replaceFirst(${1:\\$search}, ${2:\\$replace}, ${3:\\$subject})"
+        ],
+        "description": "Replaces the first occurrence of a given value in a string."
+    },
+    "Str::replaceLast": {
+        "prefix": "Str::replaceLast",
+        "body": [
+            "Str::replaceLast(${1:\\$search}, ${2:\\$replace}, ${3:\\$subject})"
+        ],
+        "description": "Replaces the last occurrence of a given value in a string."
+    },
+    "Str::singular": {
+        "prefix": "Str::singular",
+        "body": [
+            "Str::singular(${1:\\$value})"
+        ],
+        "description": "Converts a string to its singular form. This function currently only supports the English language."
+    },
+    "Str::slug": {
+        "prefix": "Str::slug",
+        "body": [
+            "Str::slug(${1:\\$title})"
+        ],
+        "description": "Generates a URL friendly \"slug\" from the given string."
+    },
+    "Str::snake": {
+        "prefix": "Str::snake",
+        "body": [
+            "Str::snake(${1:\\$value})"
+        ],
+        "description": "Converts the given string to `snake_case`."
+    },
+    "Str::start": {
+        "prefix": "Str::start",
+        "body": [
+            "Str::start(${1:\\$value}, ${2:\\$prefix})"
+        ],
+        "description": "Adds a single instance of the given value to a string if it does not already start with the value."
+    },
+    "Str::startsWith": {
+        "prefix": "Str::startsWith",
+        "body": [
+            "Str::startsWith(${1:\\$haystack}, ${2:\\$needles})"
+        ],
+        "description": "Determines if the given string begins with the given value."
+    },
+    "Str::studly": {
+        "prefix": "Str::studly",
+        "body": [
+            "Str::studly(${1:\\$value})"
+        ],
+        "description": "Converts the given string to `StudlyCase`."
+    },
+    "Str::substr": {
+        "prefix": "Str::substr",
+        "body": [
+            "Str::substr(${1:\\$string}, ${2:\\$start})"
+        ],
+        "description": "Returns the portion of string specified by the start and length parameters."
+    },
+    "Str::title": {
+        "prefix": "Str::title",
+        "body": [
+            "Str::title(${1:\\$value})"
+        ],
+        "description": "Converts the given string to `Title Case`."
+    },
+    "Str::ucfirst": {
+        "prefix": "Str::ucfirst",
+        "body": [
+            "Str::ucfirst(${1:\\$string})"
+        ],
+        "description": "Returns the given string with the first character capitalized."
+    },
+    "Str::upper": {
+        "prefix": "Str::upper",
+        "body": [
+            "Str::upper(${1:\\$value})"
+        ],
+        "description": "Converts the given string to uppercase."
+    },
+    "Str::uuid": {
+        "prefix": "Str::uuid",
+        "body": [
+            "Str::uuid()"
+        ],
+        "description": "Generates a UUID (version 4)."
+    },
+    "Str::words": {
+        "prefix": "Str::words",
+        "body": [
+            "Str::words(${1:\\$value})"
+        ],
+        "description": "Limits the number of words in a string."
+    }
+}
