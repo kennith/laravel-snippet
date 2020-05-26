@@ -1,0 +1,359 @@
+{
+    "abort()": {
+        "prefix": "abort",
+        "body": [
+            "abort(${1:\\$code})"
+        ],
+        "description": "The `abort` function throws an HTTP exception."
+    },
+    "abort_if()": {
+        "prefix": "abort_if",
+        "body": [
+            "abort_if(${1:\\$boolean}, ${2:\\$code})"
+        ],
+        "description": "The `abort_if` function throws an HTTP exception if a given boolean expression evaluates to `true`."
+    },
+    "abort_unless()": {
+        "prefix": "abort_unless",
+        "body": [
+            "abort_unless(${1:\\$boolean}, ${2:\\$code})"
+        ],
+        "description": "The `abort_unless` function throws an HTTP exception if a given boolean expression evaluates to `false`."
+    },
+    "app()": {
+        "prefix": "app",
+        "body": [
+            "app()"
+        ],
+        "description": "The `app` function returns the service container instance."
+    },
+    "auth()": {
+        "prefix": "auth",
+        "body": [
+            "auth()"
+        ],
+        "description": "The `auth` function returns an authenticator instance. You may use it instead of the `Auth` facade for convenience."
+    },
+    "back()": {
+        "prefix": "back",
+        "body": [
+            "back()"
+        ],
+        "description": "The `back` function generates a redirect HTTP response to the user's previous location."
+    },
+    "bcrypt()": {
+        "prefix": "bcrypt",
+        "body": [
+            "bcrypt(${1:\\$value})"
+        ],
+        "description": "The `bcrypt` function hashes the given value using Bcrypt. You may use it as an alternative to the `Hash` facade."
+    },
+    "blank()": {
+        "prefix": "blank",
+        "body": [
+            "blank(${1:\\$value})"
+        ],
+        "description": "The `blank` function returns whether the given value is \"blank\"."
+    },
+    "broadcast()": {
+        "prefix": "broadcast",
+        "body": [
+            "broadcast()"
+        ],
+        "description": "The `broadcast` function broadcasts to its listeners."
+    },
+    "cache()": {
+        "prefix": "cache",
+        "body": [
+            "cache()"
+        ],
+        "description": "The `cache` function may be used to get values from the cache. If the given key does not exist in the cache, an optional default value will be returned."
+    },
+    "class_uses_recursive()": {
+        "prefix": "class_uses_recursive",
+        "body": [
+            "class_uses_recursive(${1:\\$class})"
+        ],
+        "description": "The `class_uses_recursive` function returns all traits used by a class, including traits used by all of its parent classes."
+    },
+    "collect()": {
+        "prefix": "collect",
+        "body": [
+            "collect()"
+        ],
+        "description": "The `collect` function creates a collection instance from the given value."
+    },
+    "config()": {
+        "prefix": "config",
+        "body": [
+            "config()"
+        ],
+        "description": "The `config` function gets the value of a configuration variable. The configuration values may be accessed using \"dot\" syntax, which includes the name of the file and the option you wish to access. A default value may be specified and is returned if the configuration option does not exist."
+    },
+    "cookie()": {
+        "prefix": "cookie",
+        "body": [
+            "cookie()"
+        ],
+        "description": "The `cookie` function creates a new cookie instance."
+    },
+    "csrf_field()": {
+        "prefix": "csrf_field",
+        "body": [
+            "csrf_field()"
+        ],
+        "description": "The `csrf_field` function generates an HTML `hidden` input field containing the value of the CSRF token. For example, using Blade syntax."
+    },
+    "csrf_token()": {
+        "prefix": "csrf_token",
+        "body": [
+            "csrf_token()"
+        ],
+        "description": "The `csrf_token` function retrieves the value of the current CSRF token."
+    },
+    "dd()": {
+        "prefix": "dd",
+        "body": [
+            "dd(${1:\\vars})"
+        ],
+        "description": "The `dd` function dumps the given variables and ends execution of the script."
+    },
+    "decrypt()": {
+        "prefix": "decrypt",
+        "body": [
+            "decrypt(${1:\\$value})"
+        ],
+        "description": "The `decrypt` function decrypts the given value using Laravel's encrypter."
+    },
+    "dispatch()": {
+        "prefix": "dispatch",
+        "body": [
+            "dispatch(${1:\\$job})"
+        ],
+        "description": "The `dispatch` function pushes the given job."
+    },
+    "dispatch_now()": {
+        "prefix": "dispatch_now",
+        "body": [
+            "dispatch_now(${1:\\$job})"
+        ],
+        "description": "The `dispatch_now` function runs the given job immediately and returns the value from its `handle` method."
+    },
+    "dump()": {
+        "prefix": "dump",
+        "body": [
+            "dump(${1:\\$var})"
+        ],
+        "description": "The `dump` function dumps the given variables."
+    },
+    "encrypt()": {
+        "prefix": "encrypt",
+        "body": [
+            "encrypt(${1:\\$value})"
+        ],
+        "description": "The `encrypt` function encrypts the given value using Laravel's encrypter."
+    },
+    "env()": {
+        "prefix": "env",
+        "body": [
+            "env(${1:\\$key})"
+        ],
+        "description": "The `env` function retrieves the value of an environment variable or returns a default value."
+    },
+    "event()": {
+        "prefix": "event",
+        "body": [
+            "event(${1:\\$args})"
+        ],
+        "description": "The `event` function dispatches the given event to its listeners."
+    },
+    "factory()": {
+        "prefix": "factory",
+        "body": [
+            "factory(${1:\\$class})"
+        ],
+        "description": "The `factory` function creates a model factory builder for a given class, name, and amount. It can be used while testing."
+    },
+    "filled()": {
+        "prefix": "filled",
+        "body": [
+            "filled(${1:\\$value})"
+        ],
+        "description": "The `filled` function returns whether the given value is not \"blank\"."
+    },
+    "info()": {
+        "prefix": "info",
+        "body": [
+            "info(${1:\\$message})"
+        ],
+        "description": "The `info` function will write information to the log."
+    },
+    "logger()": {
+        "prefix": "logger",
+        "body": [
+            "logger()"
+        ],
+        "description": "The `logger` function can be used to write a `debug` level message to the log."
+    },
+    "method_field()": {
+        "prefix": "method_field",
+        "body": [
+            "method_field(${1:\\$method})"
+        ],
+        "description": "The `method_field` function generates an HTML `hidden` input field containing the spoofed value of the form's HTTP verb. For example, using Blade syntax."
+    },
+    "now()": {
+        "prefix": "now",
+        "body": [
+            "now()"
+        ],
+        "description": "The `now` function creates a new `Illuminate\\Support\\Carbon` instance for the current time."
+    },
+    "old()": {
+        "prefix": "old",
+        "body": [
+            "old()"
+        ],
+        "description": "The `old` function retrieves value flashed into the session."
+    },
+    "optional()": {
+        "prefix": "optional",
+        "body": [
+            "optional()"
+        ],
+        "description": "The `optional` function accepts any argument and allows you to access properties or call methods on that object. If the given object is `null`, properties and methods will return `null` instead of causing an error."
+    },
+    "policy()": {
+        "prefix": "policy",
+        "body": [
+            "policy(${1:\\$class})"
+        ],
+        "description": "The `policy` method retrieves a policy instance for a given class."
+    },
+    "redirect()": {
+        "prefix": "redirect",
+        "body": [
+            "redirect()"
+        ],
+        "description": "The `redirect` function returns a redirect HTTP response, or returns the redirector instance if called with no arguments."
+    },
+    "report()": {
+        "prefix": "report",
+        "body": [
+            "report()"
+        ],
+        "description": "The `report` function will report an exception using your exception handler's `report` method."
+    },
+    "request()": {
+        "prefix": "request",
+        "body": [
+            "request()"
+        ],
+        "description": "The `request` function returns the current request instance or obtains an input item."
+    },
+    "rescue()": {
+        "prefix": "rescue",
+        "body": [
+            "rescue(${1:\\$callback})"
+        ],
+        "description": "The `rescue` function executes the given Closure and catches any exceptions that occur during its execution. All exceptions that are caught will be sent to your exception handler's `report` method; however, the request will continue processing."
+    },
+    "resolve()": {
+        "prefix": "resolve",
+        "body": [
+            "resolve(${1:\\$name})"
+        ],
+        "description": "The `resolve` function resolves a given class or interface name to its instance using the service container."
+    },
+    "response()": {
+        "prefix": "response",
+        "body": [
+            "response()"
+        ],
+        "description": "The `response` function creates a response instance or obtains an instance of the response factory."
+    },
+    "retry()": {
+        "prefix": "retry",
+        "body": [
+            "retry(${1:\\$times})"
+        ],
+        "description": "The `retry` function attempts to execute the given callback until the given maximum attempt threshold is met. If the callback does not throw an exception, its return value will be returned. If the callback throws an exception, it will automatically be retried. If the maximum attempt count is exceeded, the exception will be thrown."
+    },
+    "session()": {
+        "prefix": "session",
+        "body": [
+            "session()"
+        ],
+        "description": "The `session` function may be used to get or set session values."
+    },
+    "tap()": {
+        "prefix": "tap",
+        "body": [
+            "tap(${1:\\$value})"
+        ],
+        "description": "The `tap` function accepts two arguments: an arbitrary `$value` and a Closure. The `$value` will be passed to the Closure and then be returned by the `tap` function. The return value of the Closure is irrelevant."
+    },
+    "throw_if()": {
+        "prefix": "throw_if",
+        "body": [
+            "throw_if(${1:\\$condition}, ${2:\\$exception}, ${3:\\$parameters})"
+        ],
+        "description": "The `throw_if` function throws the given exception if a given boolean expression evaluates to `true`."
+    },
+    "throw_unless()": {
+        "prefix": "throw_unless",
+        "body": [
+            "throw_unless(${1:\\$condition}, ${2:\\$exception}, ${3:\\$parameters})"
+        ],
+        "description": "The `throw_unless` function throws the given exception if a given boolean expression evaluates to `false`."
+    },
+    "today()": {
+        "prefix": "today",
+        "body": [
+            "today()"
+        ],
+        "description": "The `today` function creates a new `Illuminate\\Support\\Carbon` instance for the current date."
+    },
+    "trait_uses_recursive()": {
+        "prefix": "trait_uses_recursive",
+        "body": [
+            "trait_uses_recursive(${1:\\$trait})"
+        ],
+        "description": "The `trait_uses_recursive` function returns all traits used by a trait."
+    },
+    "transform()": {
+        "prefix": "transform",
+        "body": [
+            "transform(${1:\\$value}, ${2:\\$callback})"
+        ],
+        "description": "The `transform` function executes a `Closure` on a given value if the value is not blank(#method-blank) and returns the result of the `Closure`."
+    },
+    "validator()": {
+        "prefix": "validator",
+        "body": [
+            "validator()"
+        ],
+        "description": "The `validator` function creates a new validator instance with the given arguments. You may use it instead of the `Validator` facade for convenience."
+    },
+    "value()": {
+        "prefix": "value",
+        "body": [
+            "value(${1:\\$value})"
+        ],
+        "description": "The `value` function returns the value it is given. However, if you pass a `Closure` to the function, the `Closure` will be executed then its result will be returned."
+    },
+    "view()": {
+        "prefix": "view",
+        "body": [
+            "view()"
+        ],
+        "description": "The `view` function retrieves a view instance."
+    },
+    "with()": {
+        "prefix": "with",
+        "body": [
+            "with(${1:\\$value})"
+        ],
+        "description": "The `with` function returns the value it is given. If a `Closure` is passed as the second argument to the function, the `Closure` will be executed and its result will be returned."
+    }
+}
