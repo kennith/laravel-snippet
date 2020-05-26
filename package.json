@@ -5,7 +5,7 @@
 	"homepage": "https://github.com/kennith/laravel-snippets",
 	"bugs": {"url": "https://github.com/kennith/laravel-snippets/issues"},
 	"keywords" :["laravel snippets", "laravel", "snippets"],
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"license": "LICENSE.md",
 	"publisher": "kennith",
 	"icon": "laravel.png",
