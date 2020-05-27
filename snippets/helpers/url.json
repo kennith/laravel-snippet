@@ -1,41 +1,41 @@
 {
     "action()": {
-        "prefix": "action()",
+        "prefix": "action",
         "body": [
             "action(${1:\\$name})"
         ],
         "description": "Generates a URL for the given controller action. You do not need to pass the full namespace of the controller. Instead, pass the controller class name relative to the `App\\Http\\Controllers` namespace."
     },
     "asset()": {
-        "prefix": "asset()",
+        "prefix": "asset",
         "body": [
             "asset(${1:\\$path})"
         ],
         "description": "Generates a URL for an asset using the current scheme of the request (HTTP or HTTPS)."
     },
     "route()": {
-        "prefix": "route()",
+        "prefix": "route",
         "body": [
             "route(${1:\\$name})"
         ],
         "description": "Generates a URL for the given named route."
     },
     "secure_asset()": {
-        "prefix": "secure_asset()",
+        "prefix": "secure_asset",
         "body": [
             "secure_asset(${1:\\$path})"
         ],
         "description": "Generates a URL for an asset using HTTPS."
     },
     "secure_url()": {
-        "prefix": "secure_url()",
+        "prefix": "secure_url",
         "body": [
             "secure_url(${1:\\$path})"
         ],
         "description": "Generates a fully qualified HTTPS URL to the given path."
     },
     "url()": {
-        "prefix": "url()",
+        "prefix": "url",
         "body": [
             "url()"
         ],

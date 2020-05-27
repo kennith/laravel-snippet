@@ -1,55 +1,55 @@
 {
     "app_path": {
-        "prefix": "app_path()",
+        "prefix": "app_path",
         "body": [
             "app_path()"
         ],
         "description": "Returns the fully qualified path to the `app` directory. You may also use the `app_path` function to generate a fully qualified path to a file relative to the application directory."
     },
     "base_path": {
-        "prefix": "base_path()",
+        "prefix": "base_path",
         "body": [
             "base_path()"
         ],
         "description": "Returns the fully qualified path to the project root. You may also use the `base_path` function to generate a fully qualified path to a given file relative to the project root directory."
     },
     "config_path": {
-        "prefix": "config_path()",
+        "prefix": "config_path",
         "body": [
             "config_path()"
         ],
         "description": "Returns the fully qualified path to the `config` directory. You may also use the `config_path` function to generate a fully qualified path to a given file within the application's configuration directory."
     },
     "database_path": {
-        "prefix": "database_path()",
+        "prefix": "database_path",
         "body": [
             "database_path()"
         ],
         "description": "Returns the fully qualified path to the `database` directory. You may also use the `database_path` function to generate a fully qualified path to a given file within the database directory."
     },
     "mix": {
-        "prefix": "mix()",
+        "prefix": "mix",
         "body": [
             "mix()"
         ],
         "description": "Returns the path to a [versioned Mix file](/docs/{{version}}/mix)."
     },
     "public_path": {
-        "prefix": "public_path()",
+        "prefix": "public_path",
         "body": [
             "public_path()"
         ],
         "description": "Returns the fully qualified path to the `public` directory. You may also use the `public_path` function to generate a fully qualified path to a given file within the public directory."
     },
     "resource_path": {
-        "prefix": "resource_path()",
+        "prefix": "resource_path",
         "body": [
             "resource_path()"
         ],
         "description": "Returns the fully qualified path to the `resources` directory. You may also use the `resource_path` function to generate a fully qualified path to a given file within the resources directory."
     },
     "storage_path": {
-        "prefix": "storage_path()",
+        "prefix": "storage_path",
         "body": [
             "storage_path()"
         ],

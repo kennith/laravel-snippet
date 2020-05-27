@@ -2,1423 +2,1423 @@
     "any": {
         "prefix": "any",
         "body": [
-            "\\$this->any();"
+            "any();"
         ]
     },
     "anything": {
         "prefix": "anything",
         "body": [
-            "\\$this->anything();"
+            "anything();"
         ]
     },
     "arrayHasKey": {
         "prefix": "arrayHasKey",
         "body": [
-            "\\$this->arrayHasKey(${1:key});"
+            "arrayHasKey(${1:key});"
         ]
     },
     "assertArrayHasKey": {
         "prefix": "assertArrayHasKey",
         "body": [
-            "\\$this->assertArrayHasKey(${1:key}, ${2:array});"
+            "assertArrayHasKey(${1:key}, ${2:array});"
         ]
     },
     "assertArrayNotHasKey": {
         "prefix": "assertArrayNotHasKey",
         "body": [
-            "\\$this->assertArrayNotHasKey(${1:key}, ${2:array});"
+            "assertArrayNotHasKey(${1:key}, ${2:array});"
         ]
     },
     "assertClassHasAttribute": {
         "prefix": "assertClassHasAttribute",
         "body": [
-            "\\$this->assertClassHasAttribute(${1:string:attributeName}, ${2:string:className});"
+            "assertClassHasAttribute(${1:string:attributeName}, ${2:string:className});"
         ]
     },
     "assertClassHasStaticAttribute": {
         "prefix": "assertClassHasStaticAttribute",
         "body": [
-            "\\$this->assertClassHasStaticAttribute(${1:string:attributeName}, ${2:string:className});"
+            "assertClassHasStaticAttribute(${1:string:attributeName}, ${2:string:className});"
         ]
     },
     "assertClassNotHasAttribute": {
         "prefix": "assertClassNotHasAttribute",
         "body": [
-            "\\$this->assertClassNotHasAttribute(${1:string:attributeName}, ${2:string:className});"
+            "assertClassNotHasAttribute(${1:string:attributeName}, ${2:string:className});"
         ]
     },
     "assertClassNotHasStaticAttribute": {
         "prefix": "assertClassNotHasStaticAttribute",
         "body": [
-            "\\$this->assertClassNotHasStaticAttribute(${1:string:attributeName}, ${2:string:className});"
+            "assertClassNotHasStaticAttribute(${1:string:attributeName}, ${2:string:className});"
         ]
     },
     "assertContains": {
         "prefix": "assertContains",
         "body": [
-            "\\$this->assertContains(${1:needle}, ${2:iterable:haystack});"
+            "assertContains(${1:needle}, ${2:iterable:haystack});"
         ]
     },
     "assertContainsEquals": {
         "prefix": "assertContainsEquals",
         "body": [
-            "\\$this->assertContainsEquals(${1:needle}, ${2:iterable:haystack});"
+            "assertContainsEquals(${1:needle}, ${2:iterable:haystack});"
         ]
     },
     "assertContainsOnly": {
         "prefix": "assertContainsOnly",
         "body": [
-            "\\$this->assertContainsOnly(${1:string:type}, ${2:iterable:haystack});"
+            "assertContainsOnly(${1:string:type}, ${2:iterable:haystack});"
         ]
     },
     "assertContainsOnlyInstancesOf": {
         "prefix": "assertContainsOnlyInstancesOf",
         "body": [
-            "\\$this->assertContainsOnlyInstancesOf(${1:string:className}, ${2:iterable:haystack});"
+            "assertContainsOnlyInstancesOf(${1:string:className}, ${2:iterable:haystack});"
         ]
     },
     "assertCount": {
         "prefix": "assertCount",
         "body": [
-            "\\$this->assertCount(${1:int:expectedCount}, ${2:haystack});"
+            "assertCount(${1:int:expectedCount}, ${2:haystack});"
         ]
     },
     "assertDirectoryDoesNotExist": {
         "prefix": "assertDirectoryDoesNotExist",
         "body": [
-            "\\$this->assertDirectoryDoesNotExist(${1:string:directory});"
+            "assertDirectoryDoesNotExist(${1:string:directory});"
         ]
     },
     "assertDirectoryExists": {
         "prefix": "assertDirectoryExists",
         "body": [
-            "\\$this->assertDirectoryExists(${1:string:directory});"
+            "assertDirectoryExists(${1:string:directory});"
         ]
     },
     "assertDirectoryIsNotReadable": {
         "prefix": "assertDirectoryIsNotReadable",
         "body": [
-            "\\$this->assertDirectoryIsNotReadable(${1:string:directory});"
+            "assertDirectoryIsNotReadable(${1:string:directory});"
         ]
     },
     "assertDirectoryIsNotWritable": {
         "prefix": "assertDirectoryIsNotWritable",
         "body": [
-            "\\$this->assertDirectoryIsNotWritable(${1:string:directory});"
+            "assertDirectoryIsNotWritable(${1:string:directory});"
         ]
     },
     "assertDirectoryIsReadable": {
         "prefix": "assertDirectoryIsReadable",
         "body": [
-            "\\$this->assertDirectoryIsReadable(${1:string:directory});"
+            "assertDirectoryIsReadable(${1:string:directory});"
         ]
     },
     "assertDirectoryIsWritable": {
         "prefix": "assertDirectoryIsWritable",
         "body": [
-            "\\$this->assertDirectoryIsWritable(${1:string:directory});"
+            "assertDirectoryIsWritable(${1:string:directory});"
         ]
     },
     "assertDirectoryNotExists": {
         "prefix": "assertDirectoryNotExists",
         "body": [
-            "\\$this->assertDirectoryNotExists(${1:string:directory});"
+            "assertDirectoryNotExists(${1:string:directory});"
         ]
     },
     "assertDirectoryNotIsReadable": {
         "prefix": "assertDirectoryNotIsReadable",
         "body": [
-            "\\$this->assertDirectoryNotIsReadable(${1:string:directory});"
+            "assertDirectoryNotIsReadable(${1:string:directory});"
         ]
     },
     "assertDirectoryNotIsWritable": {
         "prefix": "assertDirectoryNotIsWritable",
         "body": [
-            "\\$this->assertDirectoryNotIsWritable(${1:string:directory});"
+            "assertDirectoryNotIsWritable(${1:string:directory});"
         ]
     },
     "assertDoesNotMatchRegularExpression": {
         "prefix": "assertDoesNotMatchRegularExpression",
         "body": [
-            "\\$this->assertDoesNotMatchRegularExpression(${1:string:pattern}, ${2:string:string});"
+            "assertDoesNotMatchRegularExpression(${1:string:pattern}, ${2:string:string});"
         ]
     },
     "assertEmpty": {
         "prefix": "assertEmpty",
         "body": [
-            "\\$this->assertEmpty(${1:actual});"
+            "assertEmpty(${1:actual});"
         ]
     },
     "assertEquals": {
         "prefix": "assertEquals",
         "body": [
-            "\\$this->assertEquals(${1:expected}, ${2:actual});"
+            "assertEquals(${1:expected}, ${2:actual});"
         ]
     },
     "assertEqualsCanonicalizing": {
         "prefix": "assertEqualsCanonicalizing",
         "body": [
-            "\\$this->assertEqualsCanonicalizing(${1:expected}, ${2:actual});"
+            "assertEqualsCanonicalizing(${1:expected}, ${2:actual});"
         ]
     },
     "assertEqualsIgnoringCase": {
         "prefix": "assertEqualsIgnoringCase",
         "body": [
-            "\\$this->assertEqualsIgnoringCase(${1:expected}, ${2:actual});"
+            "assertEqualsIgnoringCase(${1:expected}, ${2:actual});"
         ]
     },
     "assertEqualsWithDelta": {
         "prefix": "assertEqualsWithDelta",
         "body": [
-            "\\$this->assertEqualsWithDelta(${1:expected}, ${2:actual}, ${3:float:delta});"
+            "assertEqualsWithDelta(${1:expected}, ${2:actual}, ${3:float:delta});"
         ]
     },
     "assertEqualXMLStructure": {
         "prefix": "assertEqualXMLStructure",
         "body": [
-            "\\$this->assertEqualXMLStructure(${1:DOMElement:expectedElement}, ${2:DOMElement:actualElement});"
+            "assertEqualXMLStructure(${1:DOMElement:expectedElement}, ${2:DOMElement:actualElement});"
         ]
     },
     "assertFalse": {
         "prefix": "assertFalse",
         "body": [
-            "\\$this->assertFalse(${1:condition});"
+            "assertFalse(${1:condition});"
         ]
     },
     "assertFileDoesNotExist": {
         "prefix": "assertFileDoesNotExist",
         "body": [
-            "\\$this->assertFileDoesNotExist(${1:string:filename});"
+            "assertFileDoesNotExist(${1:string:filename});"
         ]
     },
     "assertFileEquals": {
         "prefix": "assertFileEquals",
         "body": [
-            "\\$this->assertFileEquals(${1:string:expected}, ${2:string:actual});"
+            "assertFileEquals(${1:string:expected}, ${2:string:actual});"
         ]
     },
     "assertFileEqualsCanonicalizing": {
         "prefix": "assertFileEqualsCanonicalizing",
         "body": [
-            "\\$this->assertFileEqualsCanonicalizing(${1:string:expected}, ${2:string:actual});"
+            "assertFileEqualsCanonicalizing(${1:string:expected}, ${2:string:actual});"
         ]
     },
     "assertFileEqualsIgnoringCase": {
         "prefix": "assertFileEqualsIgnoringCase",
         "body": [
-            "\\$this->assertFileEqualsIgnoringCase(${1:string:expected}, ${2:string:actual});"
+            "assertFileEqualsIgnoringCase(${1:string:expected}, ${2:string:actual});"
         ]
     },
     "assertFileExists": {
         "prefix": "assertFileExists",
         "body": [
-            "\\$this->assertFileExists(${1:string:filename});"
+            "assertFileExists(${1:string:filename});"
         ]
     },
     "assertFileIsNotReadable": {
         "prefix": "assertFileIsNotReadable",
         "body": [
-            "\\$this->assertFileIsNotReadable(${1:string:file});"
+            "assertFileIsNotReadable(${1:string:file});"
         ]
     },
     "assertFileIsNotWritable": {
         "prefix": "assertFileIsNotWritable",
         "body": [
-            "\\$this->assertFileIsNotWritable(${1:string:file});"
+            "assertFileIsNotWritable(${1:string:file});"
         ]
     },
     "assertFileIsReadable": {
         "prefix": "assertFileIsReadable",
         "body": [
-            "\\$this->assertFileIsReadable(${1:string:file});"
+            "assertFileIsReadable(${1:string:file});"
         ]
     },
     "assertFileIsWritable": {
         "prefix": "assertFileIsWritable",
         "body": [
-            "\\$this->assertFileIsWritable(${1:string:file});"
+            "assertFileIsWritable(${1:string:file});"
         ]
     },
     "assertFileNotEquals": {
         "prefix": "assertFileNotEquals",
         "body": [
-            "\\$this->assertFileNotEquals(${1:string:expected}, ${2:string:actual});"
+            "assertFileNotEquals(${1:string:expected}, ${2:string:actual});"
         ]
     },
     "assertFileNotEqualsCanonicalizing": {
         "prefix": "assertFileNotEqualsCanonicalizing",
         "body": [
-            "\\$this->assertFileNotEqualsCanonicalizing(${1:string:expected}, ${2:string:actual});"
+            "assertFileNotEqualsCanonicalizing(${1:string:expected}, ${2:string:actual});"
         ]
     },
     "assertFileNotEqualsIgnoringCase": {
         "prefix": "assertFileNotEqualsIgnoringCase",
         "body": [
-            "\\$this->assertFileNotEqualsIgnoringCase(${1:string:expected}, ${2:string:actual});"
+            "assertFileNotEqualsIgnoringCase(${1:string:expected}, ${2:string:actual});"
         ]
     },
     "assertFileNotExists": {
         "prefix": "assertFileNotExists",
         "body": [
-            "\\$this->assertFileNotExists(${1:string:filename});"
+            "assertFileNotExists(${1:string:filename});"
         ]
     },
     "assertFileNotIsReadable": {
         "prefix": "assertFileNotIsReadable",
         "body": [
-            "\\$this->assertFileNotIsReadable(${1:string:file});"
+            "assertFileNotIsReadable(${1:string:file});"
         ]
     },
     "assertFileNotIsWritable": {
         "prefix": "assertFileNotIsWritable",
         "body": [
-            "\\$this->assertFileNotIsWritable(${1:string:file});"
+            "assertFileNotIsWritable(${1:string:file});"
         ]
     },
     "assertFinite": {
         "prefix": "assertFinite",
         "body": [
-            "\\$this->assertFinite(${1:actual});"
+            "assertFinite(${1:actual});"
         ]
     },
     "assertGreaterThan": {
         "prefix": "assertGreaterThan",
         "body": [
-            "\\$this->assertGreaterThan(${1:expected}, ${2:actual});"
+            "assertGreaterThan(${1:expected}, ${2:actual});"
         ]
     },
     "assertGreaterThanOrEqual": {
         "prefix": "assertGreaterThanOrEqual",
         "body": [
-            "\\$this->assertGreaterThanOrEqual(${1:expected}, ${2:actual});"
+            "assertGreaterThanOrEqual(${1:expected}, ${2:actual});"
         ]
     },
     "assertInfinite": {
         "prefix": "assertInfinite",
         "body": [
-            "\\$this->assertInfinite(${1:actual});"
+            "assertInfinite(${1:actual});"
         ]
     },
     "assertInstanceOf": {
         "prefix": "assertInstanceOf",
         "body": [
-            "\\$this->assertInstanceOf(${1:string:expected}, ${2:actual});"
+            "assertInstanceOf(${1:string:expected}, ${2:actual});"
         ]
     },
     "assertIsArray": {
         "prefix": "assertIsArray",
         "body": [
-            "\\$this->assertIsArray(${1:actual});"
+            "assertIsArray(${1:actual});"
         ]
     },
     "assertIsBool": {
         "prefix": "assertIsBool",
         "body": [
-            "\\$this->assertIsBool(${1:actual});"
+            "assertIsBool(${1:actual});"
         ]
     },
     "assertIsCallable": {
         "prefix": "assertIsCallable",
         "body": [
-            "\\$this->assertIsCallable(${1:actual});"
+            "assertIsCallable(${1:actual});"
         ]
     },
     "assertIsFloat": {
         "prefix": "assertIsFloat",
         "body": [
-            "\\$this->assertIsFloat(${1:actual});"
+            "assertIsFloat(${1:actual});"
         ]
     },
     "assertIsInt": {
         "prefix": "assertIsInt",
         "body": [
-            "\\$this->assertIsInt(${1:actual});"
+            "assertIsInt(${1:actual});"
         ]
     },
     "assertIsIterable": {
         "prefix": "assertIsIterable",
         "body": [
-            "\\$this->assertIsIterable(${1:actual});"
+            "assertIsIterable(${1:actual});"
         ]
     },
     "assertIsNotArray": {
         "prefix": "assertIsNotArray",
         "body": [
-            "\\$this->assertIsNotArray(${1:actual});"
+            "assertIsNotArray(${1:actual});"
         ]
     },
     "assertIsNotBool": {
         "prefix": "assertIsNotBool",
         "body": [
-            "\\$this->assertIsNotBool(${1:actual});"
+            "assertIsNotBool(${1:actual});"
         ]
     },
     "assertIsNotCallable": {
         "prefix": "assertIsNotCallable",
         "body": [
-            "\\$this->assertIsNotCallable(${1:actual});"
+            "assertIsNotCallable(${1:actual});"
         ]
     },
     "assertIsNotFloat": {
         "prefix": "assertIsNotFloat",
         "body": [
-            "\\$this->assertIsNotFloat(${1:actual});"
+            "assertIsNotFloat(${1:actual});"
         ]
     },
     "assertIsNotInt": {
         "prefix": "assertIsNotInt",
         "body": [
-            "\\$this->assertIsNotInt(${1:actual});"
+            "assertIsNotInt(${1:actual});"
         ]
     },
     "assertIsNotIterable": {
         "prefix": "assertIsNotIterable",
         "body": [
-            "\\$this->assertIsNotIterable(${1:actual});"
+            "assertIsNotIterable(${1:actual});"
         ]
     },
     "assertIsNotNumeric": {
         "prefix": "assertIsNotNumeric",
         "body": [
-            "\\$this->assertIsNotNumeric(${1:actual});"
+            "assertIsNotNumeric(${1:actual});"
         ]
     },
     "assertIsNotObject": {
         "prefix": "assertIsNotObject",
         "body": [
-            "\\$this->assertIsNotObject(${1:actual});"
+            "assertIsNotObject(${1:actual});"
         ]
     },
     "assertIsNotReadable": {
         "prefix": "assertIsNotReadable",
         "body": [
-            "\\$this->assertIsNotReadable(${1:string:filename});"
+            "assertIsNotReadable(${1:string:filename});"
         ]
     },
     "assertIsNotResource": {
         "prefix": "assertIsNotResource",
         "body": [
-            "\\$this->assertIsNotResource(${1:actual});"
+            "assertIsNotResource(${1:actual});"
         ]
     },
     "assertIsNotScalar": {
         "prefix": "assertIsNotScalar",
         "body": [
-            "\\$this->assertIsNotScalar(${1:actual});"
+            "assertIsNotScalar(${1:actual});"
         ]
     },
     "assertIsNotString": {
         "prefix": "assertIsNotString",
         "body": [
-            "\\$this->assertIsNotString(${1:actual});"
+            "assertIsNotString(${1:actual});"
         ]
     },
     "assertIsNotWritable": {
         "prefix": "assertIsNotWritable",
         "body": [
-            "\\$this->assertIsNotWritable(${1:string:filename});"
+            "assertIsNotWritable(${1:string:filename});"
         ]
     },
     "assertIsNumeric": {
         "prefix": "assertIsNumeric",
         "body": [
-            "\\$this->assertIsNumeric(${1:actual});"
+            "assertIsNumeric(${1:actual});"
         ]
     },
     "assertIsObject": {
         "prefix": "assertIsObject",
         "body": [
-            "\\$this->assertIsObject(${1:actual});"
+            "assertIsObject(${1:actual});"
         ]
     },
     "assertIsReadable": {
         "prefix": "assertIsReadable",
         "body": [
-            "\\$this->assertIsReadable(${1:string:filename});"
+            "assertIsReadable(${1:string:filename});"
         ]
     },
     "assertIsResource": {
         "prefix": "assertIsResource",
         "body": [
-            "\\$this->assertIsResource(${1:actual});"
+            "assertIsResource(${1:actual});"
         ]
     },
     "assertIsScalar": {
         "prefix": "assertIsScalar",
         "body": [
-            "\\$this->assertIsScalar(${1:actual});"
+            "assertIsScalar(${1:actual});"
         ]
     },
     "assertIsString": {
         "prefix": "assertIsString",
         "body": [
-            "\\$this->assertIsString(${1:actual});"
+            "assertIsString(${1:actual});"
         ]
     },
     "assertIsWritable": {
         "prefix": "assertIsWritable",
         "body": [
-            "\\$this->assertIsWritable(${1:string:filename});"
+            "assertIsWritable(${1:string:filename});"
         ]
     },
     "assertJson": {
         "prefix": "assertJson",
         "body": [
-            "\\$this->assertJson(${1:string:actualJson});"
+            "assertJson(${1:string:actualJson});"
         ]
     },
     "assertJsonFileEqualsJsonFile": {
         "prefix": "assertJsonFileEqualsJsonFile",
         "body": [
-            "\\$this->assertJsonFileEqualsJsonFile(${1:string:expectedFile}, ${2:string:actualFile});"
+            "assertJsonFileEqualsJsonFile(${1:string:expectedFile}, ${2:string:actualFile});"
         ]
     },
     "assertJsonFileNotEqualsJsonFile": {
         "prefix": "assertJsonFileNotEqualsJsonFile",
         "body": [
-            "\\$this->assertJsonFileNotEqualsJsonFile(${1:string:expectedFile}, ${2:string:actualFile});"
+            "assertJsonFileNotEqualsJsonFile(${1:string:expectedFile}, ${2:string:actualFile});"
         ]
     },
     "assertJsonStringEqualsJsonFile": {
         "prefix": "assertJsonStringEqualsJsonFile",
         "body": [
-            "\\$this->assertJsonStringEqualsJsonFile(${1:string:expectedFile}, ${2:string:actualJson});"
+            "assertJsonStringEqualsJsonFile(${1:string:expectedFile}, ${2:string:actualJson});"
         ]
     },
     "assertJsonStringEqualsJsonString": {
         "prefix": "assertJsonStringEqualsJsonString",
         "body": [
-            "\\$this->assertJsonStringEqualsJsonString(${1:string:expectedJson}, ${2:string:actualJson});"
+            "assertJsonStringEqualsJsonString(${1:string:expectedJson}, ${2:string:actualJson});"
         ]
     },
     "assertJsonStringNotEqualsJsonFile": {
         "prefix": "assertJsonStringNotEqualsJsonFile",
         "body": [
-            "\\$this->assertJsonStringNotEqualsJsonFile(${1:string:expectedFile}, ${2:string:actualJson});"
+            "assertJsonStringNotEqualsJsonFile(${1:string:expectedFile}, ${2:string:actualJson});"
         ]
     },
     "assertJsonStringNotEqualsJsonString": {
         "prefix": "assertJsonStringNotEqualsJsonString",
         "body": [
-            "\\$this->assertJsonStringNotEqualsJsonString(${1:expectedJson}, ${2:actualJson});"
+            "assertJsonStringNotEqualsJsonString(${1:expectedJson}, ${2:actualJson});"
         ]
     },
     "assertLessThan": {
         "prefix": "assertLessThan",
         "body": [
-            "\\$this->assertLessThan(${1:expected}, ${2:actual});"
+            "assertLessThan(${1:expected}, ${2:actual});"
         ]
     },
     "assertLessThanOrEqual": {
         "prefix": "assertLessThanOrEqual",
         "body": [
-            "\\$this->assertLessThanOrEqual(${1:expected}, ${2:actual});"
+            "assertLessThanOrEqual(${1:expected}, ${2:actual});"
         ]
     },
     "assertMatchesRegularExpression": {
         "prefix": "assertMatchesRegularExpression",
         "body": [
-            "\\$this->assertMatchesRegularExpression(${1:string:pattern}, ${2:string:string});"
+            "assertMatchesRegularExpression(${1:string:pattern}, ${2:string:string});"
         ]
     },
     "assertNan": {
         "prefix": "assertNan",
         "body": [
-            "\\$this->assertNan(${1:actual});"
+            "assertNan(${1:actual});"
         ]
     },
     "assertNotContains": {
         "prefix": "assertNotContains",
         "body": [
-            "\\$this->assertNotContains(${1:needle}, ${2:iterable:haystack});"
+            "assertNotContains(${1:needle}, ${2:iterable:haystack});"
         ]
     },
     "assertNotContainsEquals": {
         "prefix": "assertNotContainsEquals",
         "body": [
-            "\\$this->assertNotContainsEquals(${1:needle}, ${2:iterable:haystack});"
+            "assertNotContainsEquals(${1:needle}, ${2:iterable:haystack});"
         ]
     },
     "assertNotContainsOnly": {
         "prefix": "assertNotContainsOnly",
         "body": [
-            "\\$this->assertNotContainsOnly(${1:string:type}, ${2:iterable:haystack});"
+            "assertNotContainsOnly(${1:string:type}, ${2:iterable:haystack});"
         ]
     },
     "assertNotCount": {
         "prefix": "assertNotCount",
         "body": [
-            "\\$this->assertNotCount(${1:int:expectedCount}, ${2:haystack});"
+            "assertNotCount(${1:int:expectedCount}, ${2:haystack});"
         ]
     },
     "assertNotEmpty": {
         "prefix": "assertNotEmpty",
         "body": [
-            "\\$this->assertNotEmpty(${1:actual});"
+            "assertNotEmpty(${1:actual});"
         ]
     },
     "assertNotEquals": {
         "prefix": "assertNotEquals",
         "body": [
-            "\\$this->assertNotEquals(${1:expected}, ${2:actual});"
+            "assertNotEquals(${1:expected}, ${2:actual});"
         ]
     },
     "assertNotEqualsCanonicalizing": {
         "prefix": "assertNotEqualsCanonicalizing",
         "body": [
-            "\\$this->assertNotEqualsCanonicalizing(${1:expected}, ${2:actual});"
+            "assertNotEqualsCanonicalizing(${1:expected}, ${2:actual});"
         ]
     },
     "assertNotEqualsIgnoringCase": {
         "prefix": "assertNotEqualsIgnoringCase",
         "body": [
-            "\\$this->assertNotEqualsIgnoringCase(${1:expected}, ${2:actual});"
+            "assertNotEqualsIgnoringCase(${1:expected}, ${2:actual});"
         ]
     },
     "assertNotEqualsWithDelta": {
         "prefix": "assertNotEqualsWithDelta",
         "body": [
-            "\\$this->assertNotEqualsWithDelta(${1:expected}, ${2:actual}, ${3:float:delta});"
+            "assertNotEqualsWithDelta(${1:expected}, ${2:actual}, ${3:float:delta});"
         ]
     },
     "assertNotFalse": {
         "prefix": "assertNotFalse",
         "body": [
-            "\\$this->assertNotFalse(${1:condition});"
+            "assertNotFalse(${1:condition});"
         ]
     },
     "assertNotInstanceOf": {
         "prefix": "assertNotInstanceOf",
         "body": [
-            "\\$this->assertNotInstanceOf(${1:string:expected}, ${2:actual});"
+            "assertNotInstanceOf(${1:string:expected}, ${2:actual});"
         ]
     },
     "assertNotIsReadable": {
         "prefix": "assertNotIsReadable",
         "body": [
-            "\\$this->assertNotIsReadable(${1:string:filename});"
+            "assertNotIsReadable(${1:string:filename});"
         ]
     },
     "assertNotIsWritable": {
         "prefix": "assertNotIsWritable",
         "body": [
-            "\\$this->assertNotIsWritable(${1:string:filename});"
+            "assertNotIsWritable(${1:string:filename});"
         ]
     },
     "assertNotNull": {
         "prefix": "assertNotNull",
         "body": [
-            "\\$this->assertNotNull(${1:actual});"
+            "assertNotNull(${1:actual});"
         ]
     },
     "assertNotRegExp": {
         "prefix": "assertNotRegExp",
         "body": [
-            "\\$this->assertNotRegExp(${1:string:pattern}, ${2:string:string});"
+            "assertNotRegExp(${1:string:pattern}, ${2:string:string});"
         ]
     },
     "assertNotSame": {
         "prefix": "assertNotSame",
         "body": [
-            "\\$this->assertNotSame(${1:expected}, ${2:actual});"
+            "assertNotSame(${1:expected}, ${2:actual});"
         ]
     },
     "assertNotSameSize": {
         "prefix": "assertNotSameSize",
         "body": [
-            "\\$this->assertNotSameSize(${1:expected}, ${2:actual});"
+            "assertNotSameSize(${1:expected}, ${2:actual});"
         ]
     },
     "assertNotTrue": {
         "prefix": "assertNotTrue",
         "body": [
-            "\\$this->assertNotTrue(${1:condition});"
+            "assertNotTrue(${1:condition});"
         ]
     },
     "assertNull": {
         "prefix": "assertNull",
         "body": [
-            "\\$this->assertNull(${1:actual});"
+            "assertNull(${1:actual});"
         ]
     },
     "assertObjectHasAttribute": {
         "prefix": "assertObjectHasAttribute",
         "body": [
-            "\\$this->assertObjectHasAttribute(${1:string:attributeName}, ${2:object});"
+            "assertObjectHasAttribute(${1:string:attributeName}, ${2:object});"
         ]
     },
     "assertObjectNotHasAttribute": {
         "prefix": "assertObjectNotHasAttribute",
         "body": [
-            "\\$this->assertObjectNotHasAttribute(${1:string:attributeName}, ${2:object});"
+            "assertObjectNotHasAttribute(${1:string:attributeName}, ${2:object});"
         ]
     },
     "assertRegExp": {
         "prefix": "assertRegExp",
         "body": [
-            "\\$this->assertRegExp(${1:string:pattern}, ${2:string:string});"
+            "assertRegExp(${1:string:pattern}, ${2:string:string});"
         ]
     },
     "assertSame": {
         "prefix": "assertSame",
         "body": [
-            "\\$this->assertSame(${1:expected}, ${2:actual});"
+            "assertSame(${1:expected}, ${2:actual});"
         ]
     },
     "assertSameSize": {
         "prefix": "assertSameSize",
         "body": [
-            "\\$this->assertSameSize(${1:expected}, ${2:actual});"
+            "assertSameSize(${1:expected}, ${2:actual});"
         ]
     },
     "assertStringContainsString": {
         "prefix": "assertStringContainsString",
         "body": [
-            "\\$this->assertStringContainsString(${1:string:needle}, ${2:string:haystack});"
+            "assertStringContainsString(${1:string:needle}, ${2:string:haystack});"
         ]
     },
     "assertStringContainsStringIgnoringCase": {
         "prefix": "assertStringContainsStringIgnoringCase",
         "body": [
-            "\\$this->assertStringContainsStringIgnoringCase(${1:string:needle}, ${2:string:haystack});"
+            "assertStringContainsStringIgnoringCase(${1:string:needle}, ${2:string:haystack});"
         ]
     },
     "assertStringEndsNotWith": {
         "prefix": "assertStringEndsNotWith",
         "body": [
-            "\\$this->assertStringEndsNotWith(${1:string:suffix}, ${2:string:string});"
+            "assertStringEndsNotWith(${1:string:suffix}, ${2:string:string});"
         ]
     },
     "assertStringEndsWith": {
         "prefix": "assertStringEndsWith",
         "body": [
-            "\\$this->assertStringEndsWith(${1:string:suffix}, ${2:string:string});"
+            "assertStringEndsWith(${1:string:suffix}, ${2:string:string});"
         ]
     },
     "assertStringEqualsFile": {
         "prefix": "assertStringEqualsFile",
         "body": [
-            "\\$this->assertStringEqualsFile(${1:string:expectedFile}, ${2:string:actualString});"
+            "assertStringEqualsFile(${1:string:expectedFile}, ${2:string:actualString});"
         ]
     },
     "assertStringEqualsFileCanonicalizing": {
         "prefix": "assertStringEqualsFileCanonicalizing",
         "body": [
-            "\\$this->assertStringEqualsFileCanonicalizing(${1:string:expectedFile}, ${2:string:actualString});"
+            "assertStringEqualsFileCanonicalizing(${1:string:expectedFile}, ${2:string:actualString});"
         ]
     },
     "assertStringEqualsFileIgnoringCase": {
         "prefix": "assertStringEqualsFileIgnoringCase",
         "body": [
-            "\\$this->assertStringEqualsFileIgnoringCase(${1:string:expectedFile}, ${2:string:actualString});"
+            "assertStringEqualsFileIgnoringCase(${1:string:expectedFile}, ${2:string:actualString});"
         ]
     },
     "assertStringMatchesFormat": {
         "prefix": "assertStringMatchesFormat",
         "body": [
-            "\\$this->assertStringMatchesFormat(${1:string:format}, ${2:string:string});"
+            "assertStringMatchesFormat(${1:string:format}, ${2:string:string});"
         ]
     },
     "assertStringMatchesFormatFile": {
         "prefix": "assertStringMatchesFormatFile",
         "body": [
-            "\\$this->assertStringMatchesFormatFile(${1:string:formatFile}, ${2:string:string});"
+            "assertStringMatchesFormatFile(${1:string:formatFile}, ${2:string:string});"
         ]
     },
     "assertStringNotContainsString": {
         "prefix": "assertStringNotContainsString",
         "body": [
-            "\\$this->assertStringNotContainsString(${1:string:needle}, ${2:string:haystack});"
+            "assertStringNotContainsString(${1:string:needle}, ${2:string:haystack});"
         ]
     },
     "assertStringNotContainsStringIgnoringCase": {
         "prefix": "assertStringNotContainsStringIgnoringCase",
         "body": [
-            "\\$this->assertStringNotContainsStringIgnoringCase(${1:string:needle}, ${2:string:haystack});"
+            "assertStringNotContainsStringIgnoringCase(${1:string:needle}, ${2:string:haystack});"
         ]
     },
     "assertStringNotEqualsFile": {
         "prefix": "assertStringNotEqualsFile",
         "body": [
-            "\\$this->assertStringNotEqualsFile(${1:string:expectedFile}, ${2:string:actualString});"
+            "assertStringNotEqualsFile(${1:string:expectedFile}, ${2:string:actualString});"
         ]
     },
     "assertStringNotEqualsFileCanonicalizing": {
         "prefix": "assertStringNotEqualsFileCanonicalizing",
         "body": [
-            "\\$this->assertStringNotEqualsFileCanonicalizing(${1:string:expectedFile}, ${2:string:actualString});"
+            "assertStringNotEqualsFileCanonicalizing(${1:string:expectedFile}, ${2:string:actualString});"
         ]
     },
     "assertStringNotEqualsFileIgnoringCase": {
         "prefix": "assertStringNotEqualsFileIgnoringCase",
         "body": [
-            "\\$this->assertStringNotEqualsFileIgnoringCase(${1:string:expectedFile}, ${2:string:actualString});"
+            "assertStringNotEqualsFileIgnoringCase(${1:string:expectedFile}, ${2:string:actualString});"
         ]
     },
     "assertStringNotMatchesFormat": {
         "prefix": "assertStringNotMatchesFormat",
         "body": [
-            "\\$this->assertStringNotMatchesFormat(${1:string:format}, ${2:string:string});"
+            "assertStringNotMatchesFormat(${1:string:format}, ${2:string:string});"
         ]
     },
     "assertStringNotMatchesFormatFile": {
         "prefix": "assertStringNotMatchesFormatFile",
         "body": [
-            "\\$this->assertStringNotMatchesFormatFile(${1:string:formatFile}, ${2:string:string});"
+            "assertStringNotMatchesFormatFile(${1:string:formatFile}, ${2:string:string});"
         ]
     },
     "assertStringStartsNotWith": {
         "prefix": "assertStringStartsNotWith",
         "body": [
-            "\\$this->assertStringStartsNotWith(${1:prefix}, ${2:string});"
+            "assertStringStartsNotWith(${1:prefix}, ${2:string});"
         ]
     },
     "assertStringStartsWith": {
         "prefix": "assertStringStartsWith",
         "body": [
-            "\\$this->assertStringStartsWith(${1:string:prefix}, ${2:string:string});"
+            "assertStringStartsWith(${1:string:prefix}, ${2:string:string});"
         ]
     },
     "assertThat": {
         "prefix": "assertThat",
         "body": [
-            "\\$this->assertThat(${1:value}, ${2:PHPUnit\\Framework\\Constraint\\Constraint:constraint});"
+            "assertThat(${1:value}, ${2:PHPUnit\\Framework\\Constraint\\Constraint:constraint});"
         ]
     },
     "assertTrue": {
         "prefix": "assertTrue",
         "body": [
-            "\\$this->assertTrue(${1:condition});"
+            "assertTrue(${1:condition});"
         ]
     },
     "assertXmlFileEqualsXmlFile": {
         "prefix": "assertXmlFileEqualsXmlFile",
         "body": [
-            "\\$this->assertXmlFileEqualsXmlFile(${1:string:expectedFile}, ${2:string:actualFile});"
+            "assertXmlFileEqualsXmlFile(${1:string:expectedFile}, ${2:string:actualFile});"
         ]
     },
     "assertXmlFileNotEqualsXmlFile": {
         "prefix": "assertXmlFileNotEqualsXmlFile",
         "body": [
-            "\\$this->assertXmlFileNotEqualsXmlFile(${1:string:expectedFile}, ${2:string:actualFile});"
+            "assertXmlFileNotEqualsXmlFile(${1:string:expectedFile}, ${2:string:actualFile});"
         ]
     },
     "assertXmlStringEqualsXmlFile": {
         "prefix": "assertXmlStringEqualsXmlFile",
         "body": [
-            "\\$this->assertXmlStringEqualsXmlFile(${1:string:expectedFile}, ${2:actualXml});"
+            "assertXmlStringEqualsXmlFile(${1:string:expectedFile}, ${2:actualXml});"
         ]
     },
     "assertXmlStringEqualsXmlString": {
         "prefix": "assertXmlStringEqualsXmlString",
         "body": [
-            "\\$this->assertXmlStringEqualsXmlString(${1:expectedXml}, ${2:actualXml});"
+            "assertXmlStringEqualsXmlString(${1:expectedXml}, ${2:actualXml});"
         ]
     },
     "assertXmlStringNotEqualsXmlFile": {
         "prefix": "assertXmlStringNotEqualsXmlFile",
         "body": [
-            "\\$this->assertXmlStringNotEqualsXmlFile(${1:string:expectedFile}, ${2:actualXml});"
+            "assertXmlStringNotEqualsXmlFile(${1:string:expectedFile}, ${2:actualXml});"
         ]
     },
     "assertXmlStringNotEqualsXmlString": {
         "prefix": "assertXmlStringNotEqualsXmlString",
         "body": [
-            "\\$this->assertXmlStringNotEqualsXmlString(${1:expectedXml}, ${2:actualXml});"
+            "assertXmlStringNotEqualsXmlString(${1:expectedXml}, ${2:actualXml});"
         ]
     },
     "at": {
         "prefix": "at",
         "body": [
-            "\\$this->at(${1:int:index});"
+            "at(${1:int:index});"
         ]
     },
     "atLeast": {
         "prefix": "atLeast",
         "body": [
-            "\\$this->atLeast(${1:int:requiredInvocations});"
+            "atLeast(${1:int:requiredInvocations});"
         ]
     },
     "atLeastOnce": {
         "prefix": "atLeastOnce",
         "body": [
-            "\\$this->atLeastOnce();"
+            "atLeastOnce();"
         ]
     },
     "atMost": {
         "prefix": "atMost",
         "body": [
-            "\\$this->atMost(${1:int:allowedInvocations});"
+            "atMost(${1:int:allowedInvocations});"
         ]
     },
     "callback": {
         "prefix": "callback",
         "body": [
-            "\\$this->callback(${1:callable:callback});"
+            "callback(${1:callable:callback});"
         ]
     },
     "classHasAttribute": {
         "prefix": "classHasAttribute",
         "body": [
-            "\\$this->classHasAttribute(${1:string:attributeName});"
+            "classHasAttribute(${1:string:attributeName});"
         ]
     },
     "classHasStaticAttribute": {
         "prefix": "classHasStaticAttribute",
         "body": [
-            "\\$this->classHasStaticAttribute(${1:string:attributeName});"
+            "classHasStaticAttribute(${1:string:attributeName});"
         ]
     },
     "containsEqual": {
         "prefix": "containsEqual",
         "body": [
-            "\\$this->containsEqual(${1:value});"
+            "containsEqual(${1:value});"
         ]
     },
     "containsIdentical": {
         "prefix": "containsIdentical",
         "body": [
-            "\\$this->containsIdentical(${1:value});"
+            "containsIdentical(${1:value});"
         ]
     },
     "containsOnly": {
         "prefix": "containsOnly",
         "body": [
-            "\\$this->containsOnly(${1:string:type});"
+            "containsOnly(${1:string:type});"
         ]
     },
     "containsOnlyInstancesOf": {
         "prefix": "containsOnlyInstancesOf",
         "body": [
-            "\\$this->containsOnlyInstancesOf(${1:string:className});"
+            "containsOnlyInstancesOf(${1:string:className});"
         ]
     },
     "countOf": {
         "prefix": "countOf",
         "body": [
-            "\\$this->countOf(${1:int:count});"
+            "countOf(${1:int:count});"
         ]
     },
     "createConfiguredMock": {
         "prefix": "createConfiguredMock",
         "body": [
-            "\\$this->createConfiguredMock(${1:string:originalClassName}, ${2:array:configuration});"
+            "createConfiguredMock(${1:string:originalClassName}, ${2:array:configuration});"
         ]
     },
     "createMock": {
         "prefix": "createMock",
         "body": [
-            "\\$this->createMock(${1:string:originalClassName});"
+            "createMock(${1:string:originalClassName});"
         ]
     },
     "createPartialMock": {
         "prefix": "createPartialMock",
         "body": [
-            "\\$this->createPartialMock(${1:string:originalClassName}, ${2:array:methods});"
+            "createPartialMock(${1:string:originalClassName}, ${2:array:methods});"
         ]
     },
     "createStub": {
         "prefix": "createStub",
         "body": [
-            "\\$this->createStub(${1:string:originalClassName});"
+            "createStub(${1:string:originalClassName});"
         ]
     },
     "createTestProxy": {
         "prefix": "createTestProxy",
         "body": [
-            "\\$this->createTestProxy(${1:string:originalClassName});"
+            "createTestProxy(${1:string:originalClassName});"
         ]
     },
     "directoryExists": {
         "prefix": "directoryExists",
         "body": [
-            "\\$this->directoryExists();"
+            "directoryExists();"
         ]
     },
     "equalTo": {
         "prefix": "equalTo",
         "body": [
-            "\\$this->equalTo(${1:value});"
+            "equalTo(${1:value});"
         ]
     },
     "equalToCanonicalizing": {
         "prefix": "equalToCanonicalizing",
         "body": [
-            "\\$this->equalToCanonicalizing(${1:value});"
+            "equalToCanonicalizing(${1:value});"
         ]
     },
     "equalToIgnoringCase": {
         "prefix": "equalToIgnoringCase",
         "body": [
-            "\\$this->equalToIgnoringCase(${1:value});"
+            "equalToIgnoringCase(${1:value});"
         ]
     },
     "equalToWithDelta": {
         "prefix": "equalToWithDelta",
         "body": [
-            "\\$this->equalToWithDelta(${1:value}, ${2:float:delta});"
+            "equalToWithDelta(${1:value}, ${2:float:delta});"
         ]
     },
     "exactly": {
         "prefix": "exactly",
         "body": [
-            "\\$this->exactly(${1:int:count});"
+            "exactly(${1:int:count});"
         ]
     },
     "expectDeprecation": {
         "prefix": "expectDeprecation",
         "body": [
-            "\\$this->expectDeprecation();"
+            "expectDeprecation();"
         ]
     },
     "expectDeprecationMessage": {
         "prefix": "expectDeprecationMessage",
         "body": [
-            "\\$this->expectDeprecationMessage(${1:string:message});"
+            "expectDeprecationMessage(${1:string:message});"
         ]
     },
     "expectDeprecationMessageMatches": {
         "prefix": "expectDeprecationMessageMatches",
         "body": [
-            "\\$this->expectDeprecationMessageMatches(${1:string:regularExpression});"
+            "expectDeprecationMessageMatches(${1:string:regularExpression});"
         ]
     },
     "expectError": {
         "prefix": "expectError",
         "body": [
-            "\\$this->expectError();"
+            "expectError();"
         ]
     },
     "expectErrorMessage": {
         "prefix": "expectErrorMessage",
         "body": [
-            "\\$this->expectErrorMessage(${1:string:message});"
+            "expectErrorMessage(${1:string:message});"
         ]
     },
     "expectErrorMessageMatches": {
         "prefix": "expectErrorMessageMatches",
         "body": [
-            "\\$this->expectErrorMessageMatches(${1:string:regularExpression});"
+            "expectErrorMessageMatches(${1:string:regularExpression});"
         ]
     },
     "expectException": {
         "prefix": "expectException",
         "body": [
-            "\\$this->expectException(${1:string:exception});"
+            "expectException(${1:string:exception});"
         ]
     },
     "expectExceptionCode": {
         "prefix": "expectExceptionCode",
         "body": [
-            "\\$this->expectExceptionCode(${1:code});"
+            "expectExceptionCode(${1:code});"
         ]
     },
     "expectExceptionMessage": {
         "prefix": "expectExceptionMessage",
         "body": [
-            "\\$this->expectExceptionMessage(${1:string:message});"
+            "expectExceptionMessage(${1:string:message});"
         ]
     },
     "expectExceptionMessageMatches": {
         "prefix": "expectExceptionMessageMatches",
         "body": [
-            "\\$this->expectExceptionMessageMatches(${1:string:regularExpression});"
+            "expectExceptionMessageMatches(${1:string:regularExpression});"
         ]
     },
     "expectExceptionObject": {
         "prefix": "expectExceptionObject",
         "body": [
-            "\\$this->expectExceptionObject(${1:Exception:exception});"
+            "expectExceptionObject(${1:Exception:exception});"
         ]
     },
     "expectNotice": {
         "prefix": "expectNotice",
         "body": [
-            "\\$this->expectNotice();"
+            "expectNotice();"
         ]
     },
     "expectNoticeMessage": {
         "prefix": "expectNoticeMessage",
         "body": [
-            "\\$this->expectNoticeMessage(${1:string:message});"
+            "expectNoticeMessage(${1:string:message});"
         ]
     },
     "expectNoticeMessageMatches": {
         "prefix": "expectNoticeMessageMatches",
         "body": [
-            "\\$this->expectNoticeMessageMatches(${1:string:regularExpression});"
+            "expectNoticeMessageMatches(${1:string:regularExpression});"
         ]
     },
     "expectNotToPerformAssertions": {
         "prefix": "expectNotToPerformAssertions",
         "body": [
-            "\\$this->expectNotToPerformAssertions();"
+            "expectNotToPerformAssertions();"
         ]
     },
     "expectOutputRegex": {
         "prefix": "expectOutputRegex",
         "body": [
-            "\\$this->expectOutputRegex(${1:string:expectedRegex});"
+            "expectOutputRegex(${1:string:expectedRegex});"
         ]
     },
     "expectOutputString": {
         "prefix": "expectOutputString",
         "body": [
-            "\\$this->expectOutputString(${1:string:expectedString});"
+            "expectOutputString(${1:string:expectedString});"
         ]
     },
     "expectWarning": {
         "prefix": "expectWarning",
         "body": [
-            "\\$this->expectWarning();"
+            "expectWarning();"
         ]
     },
     "expectWarningMessage": {
         "prefix": "expectWarningMessage",
         "body": [
-            "\\$this->expectWarningMessage(${1:string:message});"
+            "expectWarningMessage(${1:string:message});"
         ]
     },
     "expectWarningMessageMatches": {
         "prefix": "expectWarningMessageMatches",
         "body": [
-            "\\$this->expectWarningMessageMatches(${1:string:regularExpression});"
+            "expectWarningMessageMatches(${1:string:regularExpression});"
         ]
     },
     "fail": {
         "prefix": "fail",
         "body": [
-            "\\$this->fail($1);"
+            "fail($1);"
         ]
     },
     "fileExists": {
         "prefix": "fileExists",
         "body": [
-            "\\$this->fileExists();"
+            "fileExists();"
         ]
     },
     "getExpectedException": {
         "prefix": "getExpectedException",
         "body": [
-            "\\$this->getExpectedException();"
+            "getExpectedException();"
         ]
     },
     "getExpectedExceptionCode": {
         "prefix": "getExpectedExceptionCode",
         "body": [
-            "\\$this->getExpectedExceptionCode();"
+            "getExpectedExceptionCode();"
         ]
     },
     "getExpectedExceptionMessage": {
         "prefix": "getExpectedExceptionMessage",
         "body": [
-            "\\$this->getExpectedExceptionMessage();"
+            "getExpectedExceptionMessage();"
         ]
     },
     "getExpectedExceptionMessageRegExp": {
         "prefix": "getExpectedExceptionMessageRegExp",
         "body": [
-            "\\$this->getExpectedExceptionMessageRegExp();"
+            "getExpectedExceptionMessageRegExp();"
         ]
     },
     "getMockBuilder": {
         "prefix": "getMockBuilder",
         "body": [
-            "\\$this->getMockBuilder(${1:string:className});"
+            "getMockBuilder(${1:string:className});"
         ]
     },
     "getMockClass": {
         "prefix": "getMockClass",
         "body": [
-            "\\$this->getMockClass(${1:string:originalClassName});"
+            "getMockClass(${1:string:originalClassName});"
         ]
     },
     "getMockForAbstractClass": {
         "prefix": "getMockForAbstractClass",
         "body": [
-            "\\$this->getMockForAbstractClass(${1:string:originalClassName});"
+            "getMockForAbstractClass(${1:string:originalClassName});"
         ]
     },
     "getMockForTrait": {
         "prefix": "getMockForTrait",
         "body": [
-            "\\$this->getMockForTrait(${1:string:traitName});"
+            "getMockForTrait(${1:string:traitName});"
         ]
     },
     "getMockFromWsdl": {
         "prefix": "getMockFromWsdl",
         "body": [
-            "\\$this->getMockFromWsdl(${1:string:wsdlFile});"
+            "getMockFromWsdl(${1:string:wsdlFile});"
         ]
     },
     "greaterThan": {
         "prefix": "greaterThan",
         "body": [
-            "\\$this->greaterThan(${1:value});"
+            "greaterThan(${1:value});"
         ]
     },
     "greaterThanOrEqual": {
         "prefix": "greaterThanOrEqual",
         "body": [
-            "\\$this->greaterThanOrEqual(${1:value});"
+            "greaterThanOrEqual(${1:value});"
         ]
     },
     "identicalTo": {
         "prefix": "identicalTo",
         "body": [
-            "\\$this->identicalTo(${1:value});"
+            "identicalTo(${1:value});"
         ]
     },
     "isEmpty": {
         "prefix": "isEmpty",
         "body": [
-            "\\$this->isEmpty();"
+            "isEmpty();"
         ]
     },
     "isFalse": {
         "prefix": "isFalse",
         "body": [
-            "\\$this->isFalse();"
+            "isFalse();"
         ]
     },
     "isFinite": {
         "prefix": "isFinite",
         "body": [
-            "\\$this->isFinite();"
+            "isFinite();"
         ]
     },
     "isInfinite": {
         "prefix": "isInfinite",
         "body": [
-            "\\$this->isInfinite();"
+            "isInfinite();"
         ]
     },
     "isInIsolation": {
         "prefix": "isInIsolation",
         "body": [
-            "\\$this->isInIsolation();"
+            "isInIsolation();"
         ]
     },
     "isInstanceOf": {
         "prefix": "isInstanceOf",
         "body": [
-            "\\$this->isInstanceOf(${1:string:className});"
+            "isInstanceOf(${1:string:className});"
         ]
     },
     "isJson": {
         "prefix": "isJson",
         "body": [
-            "\\$this->isJson();"
+            "isJson();"
         ]
     },
     "isLarge": {
         "prefix": "isLarge",
         "body": [
-            "\\$this->isLarge();"
+            "isLarge();"
         ]
     },
     "isMedium": {
         "prefix": "isMedium",
         "body": [
-            "\\$this->isMedium();"
+            "isMedium();"
         ]
     },
     "isNan": {
         "prefix": "isNan",
         "body": [
-            "\\$this->isNan();"
+            "isNan();"
         ]
     },
     "isNull": {
         "prefix": "isNull",
         "body": [
-            "\\$this->isNull();"
+            "isNull();"
         ]
     },
     "isReadable": {
         "prefix": "isReadable",
         "body": [
-            "\\$this->isReadable();"
+            "isReadable();"
         ]
     },
     "isSmall": {
         "prefix": "isSmall",
         "body": [
-            "\\$this->isSmall();"
+            "isSmall();"
         ]
     },
     "isTrue": {
         "prefix": "isTrue",
         "body": [
-            "\\$this->isTrue();"
+            "isTrue();"
         ]
     },
     "isType": {
         "prefix": "isType",
         "body": [
-            "\\$this->isType(${1:string:type});"
+            "isType(${1:string:type});"
         ]
     },
     "isWritable": {
         "prefix": "isWritable",
         "body": [
-            "\\$this->isWritable();"
+            "isWritable();"
         ]
     },
     "lessThan": {
         "prefix": "lessThan",
         "body": [
-            "\\$this->lessThan(${1:value});"
+            "lessThan(${1:value});"
         ]
     },
     "lessThanOrEqual": {
         "prefix": "lessThanOrEqual",
         "body": [
-            "\\$this->lessThanOrEqual(${1:value});"
+            "lessThanOrEqual(${1:value});"
         ]
     },
     "logicalAnd": {
         "prefix": "logicalAnd",
         "body": [
-            "\\$this->logicalAnd();"
+            "logicalAnd();"
         ]
     },
     "logicalNot": {
         "prefix": "logicalNot",
         "body": [
-            "\\$this->logicalNot(${1:PHPUnit\\Framework\\Constraint\\Constraint:constraint});"
+            "logicalNot(${1:PHPUnit\\Framework\\Constraint\\Constraint:constraint});"
         ]
     },
     "logicalOr": {
         "prefix": "logicalOr",
         "body": [
-            "\\$this->logicalOr();"
+            "logicalOr();"
         ]
     },
     "logicalXor": {
         "prefix": "logicalXor",
         "body": [
-            "\\$this->logicalXor();"
+            "logicalXor();"
         ]
     },
     "markAsRisky": {
         "prefix": "markAsRisky",
         "body": [
-            "\\$this->markAsRisky();"
+            "markAsRisky();"
         ]
     },
     "markTestIncomplete": {
         "prefix": "markTestIncomplete",
         "body": [
-            "\\$this->markTestIncomplete($1);"
+            "markTestIncomplete($1);"
         ]
     },
     "markTestSkipped": {
         "prefix": "markTestSkipped",
         "body": [
-            "\\$this->markTestSkipped($1);"
+            "markTestSkipped($1);"
         ]
     },
     "matches": {
         "prefix": "matches",
         "body": [
-            "\\$this->matches(${1:string:string});"
+            "matches(${1:string:string});"
         ]
     },
     "matchesRegularExpression": {
         "prefix": "matchesRegularExpression",
         "body": [
-            "\\$this->matchesRegularExpression(${1:string:pattern});"
+            "matchesRegularExpression(${1:string:pattern});"
         ]
     },
     "never": {
         "prefix": "never",
         "body": [
-            "\\$this->never();"
+            "never();"
         ]
     },
     "objectHasAttribute": {
         "prefix": "objectHasAttribute",
         "body": [
-            "\\$this->objectHasAttribute(${1:attributeName});"
+            "objectHasAttribute(${1:attributeName});"
         ]
     },
     "once": {
         "prefix": "once",
         "body": [
-            "\\$this->once();"
+            "once();"
         ]
     },
     "onConsecutiveCalls": {
         "prefix": "onConsecutiveCalls",
         "body": [
-            "\\$this->onConsecutiveCalls($1);"
+            "onConsecutiveCalls($1);"
         ]
     },
     "recordDoubledType": {
         "prefix": "recordDoubledType",
         "body": [
-            "\\$this->recordDoubledType(${1:string:originalClassName});"
+            "recordDoubledType(${1:string:originalClassName});"
         ]
     },
     "returnArgument": {
         "prefix": "returnArgument",
         "body": [
-            "\\$this->returnArgument(${1:int:argumentIndex});"
+            "returnArgument(${1:int:argumentIndex});"
         ]
     },
     "returnCallback": {
         "prefix": "returnCallback",
         "body": [
-            "\\$this->returnCallback(${1:callback});"
+            "returnCallback(${1:callback});"
         ]
     },
     "returnSelf": {
         "prefix": "returnSelf",
         "body": [
-            "\\$this->returnSelf();"
+            "returnSelf();"
         ]
     },
     "returnValue": {
         "prefix": "returnValue",
         "body": [
-            "\\$this->returnValue(${1:value});"
+            "returnValue(${1:value});"
         ]
     },
     "returnValueMap": {
         "prefix": "returnValueMap",
         "body": [
-            "\\$this->returnValueMap(${1:array:valueMap});"
+            "returnValueMap(${1:array:valueMap});"
         ]
     },
     "setOutputCallback": {
         "prefix": "setOutputCallback",
         "body": [
-            "\\$this->setOutputCallback(${1:callable:callback});"
+            "setOutputCallback(${1:callable:callback});"
         ]
     },
     "stringContains": {
         "prefix": "stringContains",
         "body": [
-            "\\$this->stringContains(${1:string:string});"
+            "stringContains(${1:string:string});"
         ]
     },
     "stringEndsWith": {
         "prefix": "stringEndsWith",
         "body": [
-            "\\$this->stringEndsWith(${1:string:suffix});"
+            "stringEndsWith(${1:string:suffix});"
         ]
     },
     "stringStartsWith": {
         "prefix": "stringStartsWith",
         "body": [
-            "\\$this->stringStartsWith(${1:prefix});"
+            "stringStartsWith(${1:prefix});"
         ]
     },
     "throwException": {
         "prefix": "throwException",
         "body": [
-            "\\$this->throwException(${1:Throwable:exception});"
+            "throwException(${1:Throwable:exception});"
         ]
     }
 }
