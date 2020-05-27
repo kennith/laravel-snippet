@@ -3,24 +3,29 @@
 	"displayName": "Laravel Snippets",
 	"description": "A Laravel snippets for Visual Studio Code.",
 	"homepage": "https://github.com/kennith/laravel-snippets",
-	"bugs": {"url": "https://github.com/kennith/laravel-snippets/issues"},
-	"keywords" :["laravel snippets", "laravel", "snippets"],
-	"version": "1.1.0",
+	"bugs": {
+		"url": "https://github.com/kennith/laravel-snippets/issues"
+	},
+	"keywords": [
+		"laravel snippets",
+		"laravel",
+		"snippets"
+	],
+	"version": "1.1.1",
 	"license": "LICENSE.md",
 	"publisher": "kennith",
 	"icon": "laravel.png",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/kennith/laravel-snippets.git"
-	  },
+	},
 	"engines": {
 		"vscode": "^1.45.0"
 	},
 	"categories": [
 		"Snippets"
 	],
-	"activationEvents": [
-	],
+	"activationEvents": [],
 	"main": "./out/extension.js",
 	"contributes": {
 		"snippets": [
