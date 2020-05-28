@@ -23,7 +23,7 @@
     "before": {
         "prefix": "before",
         "body": [
-            "before(${1:\\$subject}, ${2:\\search})"
+            "before(${1:\\$subject}, ${2:\\$search})"
         ],
         "description": "Returns everything before the given value in a string."
     },
